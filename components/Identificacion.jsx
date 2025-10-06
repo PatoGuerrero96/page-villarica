@@ -2,7 +2,7 @@ import React from "react";
 
 const Identificacion = () => {
   return (
-<div className="relative w-full h-[60vh] md:h-[70vh] lg:h-[180vh] xl:h-[130vh]  overflow-hidden bg-verde z-10">
+<div className="relative w-full h-[60vh] md:h-[70vh] lg:h-[180vh] xl:h-[160vh]  overflow-hidden bg-verde z-10">
   {/* circulo verde lateral*/}
 <svg
   className="
@@ -10,11 +10,11 @@ const Identificacion = () => {
     top-40 -right-10
     md:top-65 md:-right-7
     lg:top-90 lg:-right-20
-    xl:top-110 xl:-right-10
+    xl:top-120 xl:-right-10
     w-30 h-30
     md:w-40 md:h-60
     lg:w-60 lg:h-60
-    xl:w-70 xl:h-110
+    xl:w-60 xl:h-90
   "
   viewBox="0 0 22.76 45.97"
   xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ const Identificacion = () => {
     top-73 -right-8
     md:top-130 md:-right-15
     lg:top-155 lg:-right-12
-    xl:top-230 xl:-right-10
+    xl:top-220 xl:-right-10
     w-20 h-15
     md:w-35 md:h-35
     lg:w-30 lg:h-30
@@ -52,7 +52,7 @@ const Identificacion = () => {
     top-50 right-67
     md:top-85 md:right-155
     lg:top-100 lg:right-180
-    xl:top-135 xl:right-390
+    xl:top-135 xl:right-350
     w-17 h-17
     md:w-35 md:h-50
     lg:w-40 lg:h-48
@@ -76,7 +76,7 @@ const Identificacion = () => {
      top-52 right-53
      md:top-88 md:right-115
     lg:top-105 lg:right-140
-    xl:top-142 xl:right-340
+    xl:top-142 xl:right-300
     w-12 h-12
     md:w-30 md:h-45
     lg:w-30 lg:h-38
