@@ -73,14 +73,12 @@ className="
 
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-black flex flex-col w-full">
-    <h2 className="text-xl sm:text-xl md:text-5xl lg:text-9xl  mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-4 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
-      Código Azul
+    <h2 className="text-xl sm:text-xl md:text-5xl lg:text-5xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-4 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+      Identificación
     </h2>
 
-    <div className="w-full flex flex-col justify-center h-full">
-      <p className="text-lg md:text-4xl lg:text-[40px]  mt-5 md:mt-7 lg:mt-10 xl:mt-15 font-bold text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10">
-        Pide ayuda de inmediato
-      </p>
+    <div className="w-full flex flex-col justify-center h-full mt-8 md:mt-15 lg:mt-20 xl:mt-30">
+
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
         <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-0">
@@ -88,7 +86,7 @@ className="
           <svg
   className="
     absolute
-    top-30 -left-15
+    top-31 -left-15
     md:top-55 md:-left-27
     lg:top-58 lg:-left-32
     xl:top-75 xl:-left-40
@@ -117,20 +115,24 @@ className="
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left">
-          Actívalo si la persona <strong>no se mueve, no </strong>          
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left mb-2 ">
+        <strong>Identifica siempre</strong> al paciente       
         </p>
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left font-bold">
-               responde o no respira.         
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+         Usa <strong>nombre completo y RUN en adultos y </strong>   
         </p>
+         <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+         pediátricos. Esto evita confusiones.    
+        </p>
+
         </div>
          <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-0">
                    {/* numero 2 */}
           <svg
   className="
     absolute
-    top-45 -left-15
-    md:top-80 md:-left-27
+    top-46 -left-15
+    md:top-82 md:-left-27
     lg:top-87 lg:-left-32
     xl:top-115 xl:-left-40
     w-28 h-28
@@ -158,20 +160,26 @@ className="
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left">
-          <strong className="font-bold">Llama o avisa en voz alta </strong>indicando: 
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left mb-2">
+          <strong className="font-bold">Recién nacidos,</strong>identifica la madre 
         </p>
            <p className=" italic font-bold  text-[13px] md:text-[30px] lg:text-3xl xl:text-5xl  text-left">
-          “Código Azul – niño o adulto – lugar del hospital”
+          Anota <strong>nombre y apellidos de la madre</strong>, su
+        </p>
+          <p className=" italic font-bold  text-[13px] md:text-[30px] lg:text-3xl xl:text-5xl  text-left">
+          RUN, junto con fecha, hora de nacimiento
+        </p>
+          <p className=" italic font-bold  text-[13px] md:text-[30px] lg:text-3xl xl:text-5xl  text-left">
+          y sexo del bebé.
         </p>
 
         </div>       
                  <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-0">
-                                     {/* numero 2 */}
+                                     {/* numero 3 */}
           <svg
   className="
     absolute
-    top-60 -left-15
+    top-61 -left-15
     md:top-110 md:-left-27
     lg:top-115 lg:-left-32
    xl:top-155 xl:-left-40
@@ -199,11 +207,14 @@ className="
     03
   </text>
 </svg>
-        <p className="text-[14px] md:text-[30px] lg:text-3xl xl:text-5xl text-left">
-          Mientras llega el equipo, <strong className="font-bold">acompaña y ayuda</strong>
+        <p className="text-[14px] md:text-[30px] lg:text-3xl xl:text-5xl text-left mb-2">
+          Si no conoces la identidad, <strong className="font-bold">usa "NN"</strong>
         </p>
         <p className="text-[14px] md:text-3xl lg:text-3xl xl:text-5xl text-left">
-         <strong className="font-bold">al paciente</strong> si sabes cómo hacerlo.
+         Cuando la persona llega sin identificación,
+        </p>
+        <p className="text-[14px] md:text-3xl lg:text-3xl xl:text-5xl text-left">
+         asigna nombre "NN" y RUN provisorio.
         </p>
 
         </div>
@@ -213,7 +224,6 @@ className="
 
   </div>
 </div>
-
   );
 };
 

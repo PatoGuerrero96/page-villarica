@@ -89,7 +89,7 @@ className="
           <svg
   className="
     absolute
-    top-30 -left-15
+    top-31 -left-15
     md:top-55 md:-left-27
     lg:top-58 lg:-left-32
     xl:top-75 xl:-left-40
@@ -130,8 +130,8 @@ className="
           <svg
   className="
     absolute
-    top-45 -left-15
-    md:top-80 md:-left-27
+    top-46 -left-15
+    md:top-82 md:-left-27
     lg:top-87 lg:-left-32
     xl:top-115 xl:-left-40
     w-28 h-28
@@ -172,7 +172,7 @@ className="
           <svg
   className="
     absolute
-    top-60 -left-15
+    top-61 -left-15
     md:top-110 md:-left-27
     lg:top-115 lg:-left-32
    xl:top-155 xl:-left-40

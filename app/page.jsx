@@ -9,6 +9,8 @@ import Responsabilidad from "@/components/Responsabilidad";
 import Notificar from "@/components/Notificar";
 import Seccion from "@/components/Seccion";
 import Seccion2 from "@/components/Seccion2";
+import Etica from "@/components/Etica";
+import Esteriliza from "@/components/Esteriliza";
 export default function Home() {
   return (
 <main>
@@ -82,6 +84,8 @@ export default function Home() {
          <GestionReclamos />
          <AccidenteFluidos />
          <Responsabilidad />
+         <Etica />
+         <Esteriliza />
          <Notificar />
          <Seccion />
                   <Seccion2 />
