@@ -2,7 +2,7 @@ import React from "react";
 
 const PlanEmergencia = () => {
   return (
-<div className="relative w-full h-[70vh] md:h-[90vh] lg:h-[210vh] xl:h-[190vh]  overflow-hidden bg-verde-oscuro z-10">
+<div className="relative w-full h-full  overflow-hidden bg-verde-oscuro z-10">
 
   {/* Círculo rojo parcialmente visible */}
 <svg
@@ -297,6 +297,9 @@ const PlanEmergencia = () => {
   
       </div>
     </div>
+
+  </div>
+  <div className="mt-30">
 
   </div>
 </div>

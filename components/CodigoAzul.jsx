@@ -3,7 +3,7 @@ import React from "react";
 const CodigoAzul = () => {
   return (
     
-<div className="relative w-full h-[40vh] md:h-[50vh] lg:h-[110vh] xl:h-[110vh]  overflow-hidden bg-azul z-10">
+<div className="relative w-full h-full  overflow-hidden bg-azul z-10">
   {/* svg amarillo */}
     <svg
 className="
@@ -211,6 +211,9 @@ className="
   
       </div>
     </div>
+
+  </div>
+    <div className="mt-30">
 
   </div>
 </div>

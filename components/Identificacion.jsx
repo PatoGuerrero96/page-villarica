@@ -2,7 +2,7 @@ import React from "react";
 
 const Identificacion = () => {
   return (
-<div className="relative w-full h-[60vh] md:h-[70vh] lg:h-[180vh] xl:h-[170vh]  overflow-hidden bg-verde z-10">
+<div className="relative w-full h-full  overflow-hidden bg-verde z-10">
   {/* circulo verde lateral*/}
 <svg
   className="
@@ -244,6 +244,9 @@ const Identificacion = () => {
   
       </div>
     </div>
+
+  </div>
+    <div className="mt-30">
 
   </div>
 </div>

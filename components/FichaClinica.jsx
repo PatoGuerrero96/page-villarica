@@ -2,7 +2,7 @@ import React from "react";
 
 const FichaClinica = () => {
   return (
-<div className="relative w-full h-[40vh] md:h-[50vh] lg:h-[110vh] xl:h-[110vh]  overflow-hidden bg-morado z-10">
+<div className="relative w-full h-full overflow-hidden bg-morado z-10">
   {/* circulo rojo */}
   <svg
   className="
@@ -34,7 +34,7 @@ const FichaClinica = () => {
      top-65 right-5
      md:top-115 md:right-15
     lg:top-110 lg:right-15
-    xl:top-160 xl:right-30
+    xl:top-140 xl:right-30
     w-15 h-15
      md:w-30 md:h-30
       lg:w-30 lg:h-30
@@ -71,7 +71,7 @@ const FichaClinica = () => {
     top-30 -left-15
     md:top-53 md:-left-27
     lg:top-58 lg:-left-32
-    xl:top-75 xl:-left-40
+    xl:top-87 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -112,7 +112,7 @@ const FichaClinica = () => {
     top-46 -left-15
     md:top-80 md:-left-27
     lg:top-87 lg:-left-32
-    xl:top-115 xl:-left-40
+    xl:top-130 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -150,6 +150,9 @@ const FichaClinica = () => {
   
       </div>
     </div>
+
+  </div>
+      <div className="mt-30">
 
   </div>
 </div>
