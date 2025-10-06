@@ -2,7 +2,7 @@ import React from "react";
 
 const Identificacion = () => {
   return (
-<div className="relative w-full h-[60vh] md:h-[70vh] lg:h-[180vh] xl:h-[160vh]  overflow-hidden bg-verde z-10">
+<div className="relative w-full h-[60vh] md:h-[70vh] lg:h-[180vh] xl:h-[170vh]  overflow-hidden bg-verde z-10">
   {/* circulo verde lateral*/}
 <svg
   className="
@@ -52,7 +52,7 @@ const Identificacion = () => {
     top-50 right-67
     md:top-85 md:right-155
     lg:top-100 lg:right-180
-    xl:top-135 xl:right-350
+    xl:top-135 xl:right-310
     w-17 h-17
     md:w-35 md:h-50
     lg:w-40 lg:h-48
@@ -76,7 +76,7 @@ const Identificacion = () => {
      top-52 right-53
      md:top-88 md:right-115
     lg:top-105 lg:right-140
-    xl:top-142 xl:right-300
+    xl:top-142 xl:right-260
     w-12 h-12
     md:w-30 md:h-45
     lg:w-30 lg:h-38
