@@ -11,11 +11,11 @@ className="
   -top-6 -left-2
   md:-top-12 md:-left-2
   lg:-top-10 lg:-left-2
-  xl:-top-60 xl:-left-5
+  xl:-top-60 xl:-left-10
   w-27 h-17
   md:w-45 md:h-35
   lg:w-55 lg:h-45
-  xl:w-130 xl:h-130
+  xl:w-150 xl:h-130
 "
     viewBox="0 0 29.44 14.72"
     xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ className="
   -top-5 left-27
   md:-top-12 md:left-20
   lg:-top-10 lg:left-40
-  xl:-top-30 xl:left-80
+  xl:-top-30 xl:left-60
   w-15 h-10
   md:w-100 md:h-20
   lg:w-80 lg:h-20
@@ -61,7 +61,7 @@ className="
     w-30 h-30
     md:w-48 md:h-68
     lg:w-40 lg:h-48
-    xl:w-60 xl:h-120
+    xl:w-60 xl:h-100
   "
   viewBox="0 0 22.76 45.97"
   xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ className="
         Pide ayuda de inmediato
       </p>
 
-      <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-10    ">
+      <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
         <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-0">
             {/* numero 1 */}
           <svg
@@ -96,7 +96,7 @@ className="
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
-    xl:w-85 xl:h-60
+    xl:w-75 xl:h-60
     z-40
   "
   viewBox="0 0 55.3 19.26"
@@ -133,11 +133,11 @@ className="
     top-45 -left-15
     md:top-80 md:-left-27
     lg:top-87 lg:-left-32
-    xl:top-110 xl:-left-40
+    xl:top-115 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
-    xl:w-85 xl:h-60
+    xl:w-75 xl:h-60
     z-40
   "
   viewBox="0 0 55.3 19.26"
@@ -175,11 +175,11 @@ className="
     top-60 -left-15
     md:top-110 md:-left-27
     lg:top-115 lg:-left-32
-   xl:top-145 xl:-left-40
+   xl:top-155 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
-     xl:w-85 xl:h-60
+    xl:w-75 xl:h-60
     z-40
   "
   viewBox="0 0 55.3 19.26"
