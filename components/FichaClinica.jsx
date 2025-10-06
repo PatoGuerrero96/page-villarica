@@ -3,82 +3,62 @@ import React from "react";
 const FichaClinica = () => {
   return (
 <div className="relative w-full h-[40vh] md:h-[50vh] lg:h-[110vh] xl:h-[110vh]  overflow-hidden bg-morado z-10">
-  {/* svg amarillo */}
-    <svg
-className="
-  absolute 
-  -top-6 -left-2
-  md:-top-12 md:-left-2
-  lg:-top-10 lg:-left-2
-  xl:-top-60 xl:-left-10
-  w-27 h-17
-  md:w-45 md:h-35
-  lg:w-55 lg:h-45
-  xl:w-150 xl:h-130
-"
-    viewBox="0 0 29.44 14.72"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <g>
-      <path
-        fill="#FFF200"
-        d="M14.72,14.72C6.59,14.72,0,8.13,0,0h29.44c0,8.13-6.59,14.72-14.72,14.72Z"
-      />
-    </g>
-  </svg>
-    {/* svg naranjo*/}
+  {/* circulo rojo */}
   <svg
-className="
-  absolute 
-  -top-5 left-27
-  md:-top-12 md:left-20
-  lg:-top-10 lg:left-40
-  xl:-top-30 xl:left-60
-  w-15 h-10
-  md:w-100 md:h-20
-  lg:w-80 lg:h-20
-  xl:w-230 xl:h-50
-"
-    viewBox="0 0 29.44 14.72"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <g>
-      <path
-        fill="#ff5d00"
-        d="M14.72,14.72C6.59,14.72,0,8.13,0,0h29.44c0,8.13-6.59,14.72-14.72,14.72Z"
-      />
-    </g>
-  </svg>
-  {/* Círculo rojo parcialmente visible */}
-<svg
   className="
     absolute 
-    top-5 -right-10
-    md:top-10 md:-right-15
-    lg:top-10 lg:-right-12
-    xl:top-10 xl:-right-10
-    w-30 h-30
-    md:w-48 md:h-68
-    lg:w-40 lg:h-48
-    xl:w-60 xl:h-100
+     top-5 left-8
+     md:top-10 md:left-25
+    lg:top-10 lg:left-30
+    xl:top-15 xl:left-90
+    w-14 h-14
+    md:w-25 md:h-25
+    lg:w-30 lg:h-30
+    xl:w-50 xl:h-50
   "
-  viewBox="0 0 22.76 45.97"
+  viewBox="0 0 37.22 37.22"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <path
-    fill="#e72d45"
-    d="M0,22.98C0,10.28,10.19,0,22.76,0v45.97C10.19,45.97,0,35.68,0,22.98Z"
+  <circle
+     fill="#e62b49"
+    cx="18.61"
+    cy="18.61"
+    r="18.61"
+
   />
 </svg>
+  {/* circulo verde */}
+  <svg
+  className="
+    absolute 
+     top-65 right-5
+     md:top-115 md:right-15
+    lg:top-110 lg:right-15
+    xl:top-160 xl:right-30
+    w-15 h-15
+     md:w-30 md:h-30
+      lg:w-30 lg:h-30
+       xl:w-55 xl:h-55
+  "
+  viewBox="0 0 37.22 37.22"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+     fill="#b5ff6e"
+    cx="18.61"
+    cy="18.61"
+    r="18.61"
 
+  />
+</svg>
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-white flex flex-col w-full">
-    <h2 className="text-xl sm:text-xl md:text-5xl lg:text-5xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-4 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className="text-xl sm:text-xl md:text-5xl lg:text-5xl xl:text-6xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-4 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
       FICHA CLÍNICA
     </h2>
 
     <div className="w-full flex flex-col justify-center h-full">
-      <p className="text-lg md:text-4xl lg:text-[40px] xl:text-5xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10">
+      <p className="text-lg md:text-4xl lg:text-[40px] xl:text-7xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10">
         La ficha clínica es <strong>única y confidencia</strong>
       </p>
 
@@ -88,8 +68,8 @@ className="
           <svg
   className="
     absolute
-    top-31 -left-15
-    md:top-55 md:-left-27
+    top-30 -left-15
+    md:top-53 md:-left-27
     lg:top-58 lg:-left-32
     xl:top-75 xl:-left-40
     w-28 h-28
@@ -117,10 +97,10 @@ className="
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left">
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left">
           Está disponible en papel o en formato        
         </p>
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left font-bold">
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl text-left font-bold">
               electrónico. <strong>(login.ssasur.cl)</strong>   
         </p>
         </div>
@@ -130,7 +110,7 @@ className="
   className="
     absolute
     top-46 -left-15
-    md:top-82 md:-left-27
+    md:top-80 md:-left-27
     lg:top-87 lg:-left-32
     xl:top-115 xl:-left-40
     w-28 h-28
@@ -158,10 +138,10 @@ className="
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left">
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left">
           Solo accedes con tu <strong >clave personal</strong> 
         </p>
-           <p className=" italic font-bold  text-[13px] md:text-[30px] lg:text-3xl xl:text-5xl  text-left">
+           <p className="  font-bold  text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left">
          <strong>vinculada al RUN del paciente.</strong>
         </p>
 
