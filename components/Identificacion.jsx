@@ -183,16 +183,16 @@ const Identificacion = () => {
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-7xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
           <strong className="font-bold">Recién nacidos,</strong>identifica la madre 
         </p>
-           <p className=" text-sm md:text-3xl lg:text-3xl xl:text-5xl  text-left">
+           <p className=" text-sm md:text-3xl lg:text-3xl xl:text-6xl  text-left">
           Anota <strong>nombre y apellidos de la madre</strong>, su
         </p>
-          <p className=" text-sm md:text-3xl lg:text-3xl xl:text-5xl  text-left">
+          <p className=" text-sm md:text-3xl lg:text-3xl xl:text-6xl  text-left">
           RUN, junto con fecha, hora de nacimiento
         </p>
-          <p className=" text-sm md:text-3xl lg:text-3xl xl:text-5xl  text-left">
+          <p className=" text-sm md:text-3xl lg:text-3xl xl:text-6xl  text-left">
           y sexo del bebé.
         </p>
 
@@ -230,13 +230,13 @@ const Identificacion = () => {
     03
   </text>
 </svg>
-        <p className="text-md md:text-4xl lg:text-3xl xl:text-6xl text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
+        <p className="text-md md:text-4xl lg:text-3xl xl:text-7xl text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
           Si no conoces la identidad, <strong className="font-bold">usa "NN"</strong>
         </p>
-        <p className="text-sm md:text-3xl lg:text-3xl xl:text-5xl text-left">
+        <p className="text-sm md:text-3xl lg:text-3xl xl:text-6xl text-left">
          Cuando la persona llega sin identificación,
         </p>
-        <p className="text-sm md:text-3xl lg:text-3xl xl:text-5xl text-left">
+        <p className="text-sm md:text-3xl lg:text-3xl xl:text-6xl text-left">
         <strong>asigna nombre "NN" y RUN provisorio.</strong> 
         </p>
 

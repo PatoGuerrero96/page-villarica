@@ -137,16 +137,16 @@ const PlanEmergencia = () => {
   </text>
 </svg>
 
-        <p className="text-lg md:text-4xl lg:text-4xl xl:text-6xl  text-left mb-1 xl:mb-3  ">
+        <p className="text-lg md:text-4xl lg:text-4xl xl:text-7xl  text-left mb-1 xl:mb-3  ">
         EN CASO DE <strong>INCENDIO</strong>     
         </p>
-        <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+        <p className="text-sm md:text-4xl lg:text-4xl xl:text-6xl text-left ">
           Usa extintores si el fuego es pequeño, si se 
         </p>
-         <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+         <p className="text-sm md:text-4xl lg:text-4xl xl:text-6xl text-left ">
            propaga, avisa de inmediato y evacúa a 
         </p>
-          <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+          <p className="text-sm md:text-4xl lg:text-4xl xl:text-6xl text-left ">
            zona segura.
         </p>
 
@@ -186,16 +186,16 @@ const PlanEmergencia = () => {
 </svg>
 
 
-        <p className="text-lg md:text-4xl lg:text-4xl xl:text-6xl  text-left mb-1 xl:mb-3  ">
+        <p className="text-lg md:text-4xl lg:text-4xl xl:text-7xl  text-left mb-1 xl:mb-3  ">
         DURANTE UN<strong> SISMO</strong>     
         </p>
-        <p className="text-sm  md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+        <p className="text-sm  md:text-4xl lg:text-4xl xl:text-6xl text-left ">
           Si es <strong>leve</strong>,mantén la <strong>calma y reporta daños</strong>. Si es
         </p>
-         <p className="text-sm  md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+         <p className="text-sm  md:text-4xl lg:text-4xl xl:text-6xl text-left ">
            <strong>fuerte</strong>, protégete bajo <strong>estructuras firmes</strong> y
         </p>
-          <p className="text-sm  md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+          <p className="text-sm  md:text-4xl lg:text-4xl xl:text-6xl text-left ">
           sigue las<strong>instrucciones de emergencia</strong>.
         </p>
 
@@ -233,21 +233,21 @@ const PlanEmergencia = () => {
     03
   </text>
 </svg>
-        <p className="text-lg md:text-4xl lg:text-4xl xl:text-6xl  text-left mb-1 xl:mb-3  ">
+        <p className="text-lg md:text-4xl lg:text-4xl xl:text-7xl  text-left mb-1 xl:mb-3  ">
         ANTE <strong>INUNDACIÓN</strong> O <strong>FUGA DE GAS</strong>   
         </p>
-        <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+        <p className="text-sm md:text-4xl lg:text-4xl xl:text-6xl text-left ">
           <strong>Da aviso a bomberos</strong>y operaciones. Si es
         </p>
-         <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+         <p className="text-sm md:text-4xl lg:text-4xl xl:text-6xl text-left ">
            posible, <strong>corta el suministro y alerta a los</strong>
         </p>
-          <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+          <p className="text-sm md:text-4xl lg:text-4xl xl:text-6xl text-left ">
           <strong>demás</strong>.
         </p>
 
         </div>
-                <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-0">
+         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-0">
                                      {/* numero 4 */}
           <svg
   className="
@@ -280,16 +280,16 @@ const PlanEmergencia = () => {
     04
   </text>
 </svg>
-        <p className="text-lg md:text-4xl lg:text-4xl xl:text-6xl  text-left mb-1 xl:mb-3 ">
+        <p className="text-lg md:text-4xl lg:text-4xl xl:text-7xl  text-left mb-1 xl:mb-3 ">
         SI HAY <strong>ERUPCIÓN VOLCÁNICA</strong>     
         </p>
-        <p className="text-[13px] md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+        <p className="text-[13px] md:text-4xl lg:text-4xl xl:text-6xl text-left ">
         Sigue simpre las <strong>indicaciones de jefaturas y </strong>
         </p>
-         <p className="text-[13px] md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+         <p className="text-[13px] md:text-4xl lg:text-4xl xl:text-6xl text-left ">
           <strong>coordinadores</strong>. Mantén la <strong>calma y coopera</strong>
         </p>
-          <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl text-left ">
+          <p className="text-sm md:text-4xl lg:text-4xl xl:text-6xl text-left ">
            con tu equipo.
         </p>
 
