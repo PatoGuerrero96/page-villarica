@@ -35,21 +35,22 @@ export default function Home() {
     <div className="absolute inset-0 flex flex-col justify-center items-center z-20">
       <div className="text-left">
         <div className="w-[45%] h-1 rounded-lg bg-verde mb-4 "></div>
-        <p className="text-3xl md:text-6xl lg:text-9xl font-bold text-white">
+        <p className="text-3xl md:text-7xl lg:text-6xl xl:text-9xl font-bold text-white">
           JUNTOS SOMOS
         </p>
-        <p className="text-3xl md:text-6xl lg:text-9xl font-extrabold text-white">
+        <p className="text-3xl md:text-7xl lg:text-6xl xl:text-9xl font-extrabold text-white">
           MÁS CALIDAD
         </p>
       </div>
     </div>
 <span className="
   absolute 
-  top-10 left-5          /* Celulares */
-  md:top-20 md:left-10   /* Tablets */
-  lg:top-25 lg:left-25   /* Escritorio */
+  top-5 left-5          /* Celulares */
+  md:top-10 md:left-10   /* Tablets */
+  lg:top-5 lg:left-10   /* Tablets */
+  xl:top-25 xl:left-25   /* Escritorio */
   text-white 
-  text-xl md:text-3xl lg:text-5xl 
+  text-md md:text-5xl lg:text-4xl xl:text-5xl 
   font-bold 
   [writing-mode:vertical-rl] rotate-180
 ">
@@ -63,7 +64,7 @@ export default function Home() {
     <div className="h-1 md:h-2 lg:h-2 bg-azul mb-1 md:mb-3 w-full rounded-lg"></div>
 
     {/* Texto responsivo */}
-    <p className="text-azul text-xs md:text-2xl lg:text-2xl  xl:text-5xl ">
+    <p className="text-azul text-xs md:text-3xl lg:text-3xl  xl:text-5xl ">
       acreditación <span className="font-bold">2025</span>
     </p>
   </div>
