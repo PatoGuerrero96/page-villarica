@@ -138,13 +138,13 @@ const Identificacion = () => {
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-7xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
         <strong>Identifica siempre</strong> al paciente       
         </p>
-        <p className="text-sm md:text-3xl lg:text-4xl xl:text-5xl text-left ">
+        <p className="text-sm md:text-3xl lg:text-4xl xl:text-6xl text-left ">
          Usa <strong>nombre completo y RUN</strong>  en adultos y   
         </p>
-         <p className="text-sm md:text-3xl lg:text-4xl xl:text-5xl text-left ">
+         <p className="text-sm md:text-3xl lg:text-4xl xl:text-6xl text-left ">
          pediátricos. Esto evita confusiones.    
         </p>
 
