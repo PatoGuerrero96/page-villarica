@@ -103,7 +103,7 @@ const PlanEmergencia = () => {
 
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-15">
+        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-25">
             {/* numero 1 */}
           <svg
   className="
@@ -151,7 +151,7 @@ const PlanEmergencia = () => {
         </p>
 
         </div>
-         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-15">
+         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-25">
                    {/* numero 2 */}
           <svg
   className="
@@ -200,7 +200,7 @@ const PlanEmergencia = () => {
         </p>
 
         </div>       
-        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-15  mt-10 md:mt-15 lg:mt-20 xl:mt-30">
+        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-25  mt-10 md:mt-15 lg:mt-20 xl:mt-30">
                                      {/* numero 3 */}
           <svg
   className="
@@ -247,7 +247,7 @@ const PlanEmergencia = () => {
         </p>
 
         </div>
-         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-15">
+         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-25">
                                      {/* numero 4 */}
           <svg
   className="

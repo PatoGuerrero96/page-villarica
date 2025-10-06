@@ -84,7 +84,7 @@ className="
       </p>
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-8 md:ml-10 lg:ml-0  xl:ml-10">
+        <div className="ml-8 md:ml-10 lg:ml-0  xl:ml-15">
             {/* numero 1 */}
           <svg
   className="
@@ -125,7 +125,7 @@ className="
                responde o no respira.         
         </p>
         </div>
-         <div className="ml-8 md:ml-10 lg:ml-0  xl:ml-10">
+         <div className="ml-8 md:ml-10 lg:ml-0  xl:ml-15">
                    {/* numero 2 */}
           <svg
   className="
@@ -167,7 +167,7 @@ className="
         </p>
 
         </div>       
-                 <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-10">
+                 <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-15">
                                      {/* numero 2 */}
           <svg
   className="
