@@ -118,10 +118,10 @@ className="
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left">
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left">
           Actívalo si la persona <strong>no se mueve, no </strong>          
         </p>
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl text-left font-bold">
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left font-bold">
                responde o no respira.         
         </p>
         </div>
@@ -159,10 +159,10 @@ className="
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left">
+        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left">
           <strong className="font-bold">Llama o avisa en voz alta </strong>indicando: 
         </p>
-           <p className=" italic font-bold  text-[13px] md:text-[30px] lg:text-3xl xl:text-6xl  text-left">
+           <p className=" italic font-bold  text-[13px] md:text-[30px] lg:text-3xl xl:text-5xl  text-left">
           “Código Azul – niño o adulto – lugar del hospital”
         </p>
 
@@ -200,10 +200,10 @@ className="
     03
   </text>
 </svg>
-        <p className="text-[14px] md:text-[30px] lg:text-3xl xl:text-6xl text-left">
+        <p className="text-[14px] md:text-[30px] lg:text-3xl xl:text-5xl text-left">
           Mientras llega el equipo, <strong className="font-bold">acompaña y ayuda</strong>
         </p>
-        <p className="text-[14px] md:text-3xl lg:text-3xl xl:text-6xl text-left">
+        <p className="text-[14px] md:text-3xl lg:text-3xl xl:text-5xl text-left">
          <strong className="font-bold">al paciente</strong> si sabes cómo hacerlo.
         </p>
 
