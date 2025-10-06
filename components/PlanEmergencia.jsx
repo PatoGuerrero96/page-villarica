@@ -2,7 +2,7 @@ import React from "react";
 
 const PlanEmergencia = () => {
   return (
-<div className="relative w-full h-[100vh] md:h-[90vh] lg:h-[210vh] xl:h-[150vh]  overflow-hidden bg-verde-oscuro z-10">
+<div className="relative w-full h-[100vh] md:h-[90vh] lg:h-[210vh] xl:h-[180vh]  overflow-hidden bg-verde-oscuro z-10">
 
   {/* Círculo rojo parcialmente visible */}
 <svg
@@ -15,7 +15,7 @@ const PlanEmergencia = () => {
     w-30 h-30
     md:w-48 md:h-68
     lg:w-40 lg:h-48
-    xl:w-30 xl:h-70
+    xl:w-40 xl:h-80
   "
   viewBox="0 0 22.76 45.97"
   xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const PlanEmergencia = () => {
     w-12 h-12
     md:w-30 md:h-45
     lg:w-30 lg:h-38
-    xl:w-20 xl:h-40
+    xl:w-30 xl:h-50
   "
   viewBox="0 0 37.22 37.22"
   xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +111,7 @@ const PlanEmergencia = () => {
     top-31 -left-15
     md:top-55 md:-left-27
     lg:top-58 lg:-left-32
-    xl:top-75 xl:-left-40
+    xl:top-70 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -255,7 +255,7 @@ const PlanEmergencia = () => {
     top-61 -left-15
     md:top-110 md:-left-27
     lg:top-115 lg:-left-32
-   xl:top-305 xl:-left-40
+   xl:top-308 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
