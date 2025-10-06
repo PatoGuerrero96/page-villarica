@@ -84,7 +84,7 @@ className="
       </p>
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-8 md:ml-10 lg:ml-0  xl:ml-15">
+        <div className="ml-12 md:ml-10 lg:ml-0  xl:ml-15">
             {/* numero 1 */}
           <svg
   className="
@@ -118,14 +118,14 @@ className="
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left">
+        <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl  text-left">
           Actívalo si la persona <strong>no se mueve, no </strong>          
         </p>
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left font-bold">
+        <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl text-left font-bold">
                responde o no respira.         
         </p>
         </div>
-         <div className="ml-8 md:ml-10 lg:ml-0  xl:ml-15">
+         <div className="ml-12 md:ml-10 lg:ml-0  xl:ml-15">
                    {/* numero 2 */}
           <svg
   className="
@@ -159,16 +159,16 @@ className="
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl  text-left">
+        <p className="text-sm md:text-4xl lg:text-4xl xl:text-5xl  text-left">
           <strong className="font-bold">Llama o avisa en voz alta </strong>indicando: 
         </p>
-           <p className=" italic font-bold  text-[13px] md:text-[30px] lg:text-3xl xl:text-5xl  text-left">
+           <p className=" italic font-bold  text-sm md:text-[30px] lg:text-3xl xl:text-5xl  text-left">
           “Código Azul – niño o adulto – lugar del hospital”
         </p>
 
         </div>       
-                 <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-15">
-                                     {/* numero 2 */}
+                 <div className="ml-12 md:ml-10 lg:ml-0 xl:ml-15">
+                                     {/* numero 3 */}
           <svg
   className="
     absolute
@@ -200,10 +200,10 @@ className="
     03
   </text>
 </svg>
-        <p className="text-[14px] md:text-[30px] lg:text-3xl xl:text-5xl text-left">
+        <p className="text-sm md:text-[30px] lg:text-3xl xl:text-5xl text-left">
           Mientras llega el equipo, <strong className="font-bold">acompaña y ayuda</strong>
         </p>
-        <p className="text-[14px] md:text-3xl lg:text-3xl xl:text-5xl text-left">
+        <p className="text-sm md:text-3xl lg:text-3xl xl:text-5xl text-left">
          <strong className="font-bold">al paciente</strong> si sabes cómo hacerlo.
         </p>
 
