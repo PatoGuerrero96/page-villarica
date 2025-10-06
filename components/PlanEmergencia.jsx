@@ -2,7 +2,7 @@ import React from "react";
 
 const PlanEmergencia = () => {
   return (
-<div className="relative w-full h-[100vh] md:h-[90vh] lg:h-[210vh] xl:h-[180vh]  overflow-hidden bg-verde-oscuro z-10">
+<div className="relative w-full h-[100vh] md:h-[90vh] lg:h-[210vh] xl:h-[190vh]  overflow-hidden bg-verde-oscuro z-10">
 
   {/* Círculo rojo parcialmente visible */}
 <svg
@@ -103,7 +103,7 @@ const PlanEmergencia = () => {
 
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-0">
+        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-15">
             {/* numero 1 */}
           <svg
   className="
@@ -151,7 +151,7 @@ const PlanEmergencia = () => {
         </p>
 
         </div>
-         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-0">
+         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-15">
                    {/* numero 2 */}
           <svg
   className="
@@ -159,7 +159,7 @@ const PlanEmergencia = () => {
     top-46 -left-15
     md:top-82 md:-left-27
     lg:top-87 lg:-left-32
-    xl:top-140 xl:-left-40
+    xl:top-155 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -200,7 +200,7 @@ const PlanEmergencia = () => {
         </p>
 
         </div>       
-        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-0  mt-10 md:mt-15 lg:mt-20 xl:mt-30">
+        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-15  mt-10 md:mt-15 lg:mt-20 xl:mt-30">
                                      {/* numero 3 */}
           <svg
   className="
@@ -208,7 +208,7 @@ const PlanEmergencia = () => {
     top-61 -left-15
     md:top-110 md:-left-27
     lg:top-115 lg:-left-32
-   xl:top-235 xl:-left-40
+   xl:top-265 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -247,7 +247,7 @@ const PlanEmergencia = () => {
         </p>
 
         </div>
-         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-0">
+         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-15">
                                      {/* numero 4 */}
           <svg
   className="
@@ -255,7 +255,7 @@ const PlanEmergencia = () => {
     top-61 -left-15
     md:top-110 md:-left-27
     lg:top-115 lg:-left-32
-   xl:top-308 xl:-left-40
+   xl:top-340 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
