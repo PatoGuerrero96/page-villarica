@@ -51,7 +51,7 @@ export default function Home() {
   lg:top-5 lg:left-10   /* Tablets */
   xl:top-25 xl:left-25   /* Escritorio */
   text-white 
-  text-md md:text-5xl lg:text-4xl xl:text-[47px]
+  text-sm md:text-5xl lg:text-4xl xl:text-[47px]
   font-bold 
   [writing-mode:vertical-rl] rotate-180
 ">

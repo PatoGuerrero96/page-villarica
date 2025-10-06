@@ -8,11 +8,11 @@ const PlanEmergencia = () => {
 <svg
   className="
     absolute 
-    top-35 -right-15
+    top-38 -right-10
     md:top-60 md:-right-15
     lg:top-75 lg:-right-15
     xl:top-100 xl:-right-10
-    w-30 h-30
+    w-20 h-20
     md:w-40 md:h-50
     lg:w-36 lg:h-46
     xl:w-40 xl:h-80
@@ -103,7 +103,7 @@ const PlanEmergencia = () => {
 
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-25">
+        <div className="ml-10 md:ml-20 lg:ml-10 xl:ml-25">
             {/* numero 1 */}
           <svg
   className="
@@ -151,12 +151,12 @@ const PlanEmergencia = () => {
         </p>
 
         </div>
-         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-25">
+         <div className="ml-10 md:ml-20 lg:ml-10 xl:ml-25">
                    {/* numero 2 */}
           <svg
   className="
     absolute
-    top-40 -left-15
+    top-38 -left-15
     md:top-82 md:-left-27
     lg:top-90 lg:-left-32
     xl:top-145 xl:-left-40
@@ -189,8 +189,8 @@ const PlanEmergencia = () => {
         <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left mb-1 xl:mb-3  ">
         DURANTE UN<strong> SISMO</strong>     
         </p>
-        <p className="text-xs  md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-          Si es <strong>leve</strong>, mantén la <strong>calma y reporta daños</strong>. Si es
+        <p className="text-[11px] md:text-3xl lg:text-3xl xl:text-5xl text-left ">
+        Si es <strong>leve</strong>, mantén la <strong>calma y reporta daños</strong>. Si es
         </p>
          <p className="text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
            <strong>fuerte</strong>, protégete bajo <strong>estructuras firmes</strong> y
@@ -200,12 +200,12 @@ const PlanEmergencia = () => {
         </p>
 
         </div>       
-        <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-25  mt-10 md:mt-15 lg:mt-20 xl:mt-40">
+        <div className="ml-10 md:ml-20 lg:ml-10 xl:ml-25  mt-10 md:mt-15 lg:mt-20 xl:mt-40">
                                      {/* numero 3 */}
           <svg
   className="
     absolute
-    top-73 -left-15
+    top-72 -left-15
     md:top-143 md:-left-27
     lg:top-158 lg:-left-32
    xl:top-252 xl:-left-40
@@ -247,12 +247,12 @@ const PlanEmergencia = () => {
         </p>
 
         </div>
-         <div className="ml-8 md:ml-20 lg:ml-10 xl:ml-25">
+         <div className="ml-10 md:ml-20 lg:ml-10 xl:ml-25">
                                      {/* numero 4 */}
           <svg
   className="
     absolute
-    top-96 -left-15
+    top-94 -left-15
     md:top-190 md:-left-27
     lg:top-208 lg:-left-32
    xl:top-320 xl:-left-40
