@@ -35,11 +35,11 @@ export default function Home() {
     {/* Texto centrado */}
     <div className="absolute inset-0 flex flex-col justify-center items-center z-20">
       <div className="text-left">
-        <div className="w-[45%] h-1 rounded-lg bg-verde mb-4 "></div>
-        <p className="text-3xl md:text-7xl lg:text-6xl xl:text-9xl font-bold text-white">
+        <div className="w-[45%] h-[2px] md:h-[6px]  xl:h-[10px] rounded-lg bg-verde mb-0 md:mb-5 xl:mb-15  "></div>
+        <p className=" text-2xl  sm:text-3xl md:text-7xl lg:text-6xl xl:text-9xl font-bold text-white">
           JUNTOS SOMOS
         </p>
-        <p className="text-3xl md:text-7xl lg:text-6xl xl:text-9xl font-extrabold text-white">
+        <p className=" text-2xl  sm:text-3xl md:text-7xl lg:text-6xl xl:text-9xl font-extrabold text-white">
           MÁS CALIDAD
         </p>
       </div>
