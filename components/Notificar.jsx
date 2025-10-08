@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import Image from "next/image";
 const Notificar = () => {
   return (
 <div className="relative w-full h-full overflow-hidden bg-azul z-10">
@@ -130,9 +130,54 @@ const Notificar = () => {
     </div>
 
   </div>
-      <div className="mt-15 xl:mt-30">
-
+<div className="flex flex-row items-center justify-center ml-4 md:ml-10 lg:ml-6 xl:ml-20 gap-2 p-8 flex-wrap md:flex-nowrap mt-0 md:mt-3 xl:mt-5">
+  {/* Imagen QR */}
+  <div className="flex justify-center md:justify-end w-auto">
+    <Image
+      src="/qr.png"
+      alt="Código QR"
+      width={350}       // Tamaño por defecto (celular)
+      height={350}
+      className="md:w-[120px] md:h-[120px] lg:w-[160px] lg:h-[160px] xl:w-[220px] xl:h-[220px] w-[80px] h-[80px]" // cambia en pantallas grandes
+    />
   </div>
+
+  {/* Enlace */}
+  <div className="text-left">
+    <p className="text-xs md:text-xl lg:text-3xl xl:text-5xl font-medium leading-tight">
+      <a
+        href="https://redcap.araucaniasur.cl/surveys/?s=WRY44F8D4T"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white break-all"
+      >
+        https://redcap.
+      </a>
+    </p>
+    <p className="text-xs md:text-xl lg:text-3xl xl:text-5xl font-medium leading-tight">
+      <a
+        href="https://redcap.araucaniasur.cl/surveys/?s=WRY44F8D4T"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white break-all"
+      >
+        araucaniasur.cl/
+      </a>
+    </p>
+    <p className="text-xs md:text-xl lg:text-3xl xl:text-5xl font-medium leading-tight">
+      <a
+        href="https://redcap.araucaniasur.cl/surveys/?s=WRY44F8D4T"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white break-all"
+      >
+        surveys/?s=WRY44F8D4T
+      </a>
+    </p>
+  </div>
+</div>
+
+
 </div>
   );
 };

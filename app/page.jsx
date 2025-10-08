@@ -48,7 +48,7 @@ export default function Home() {
   absolute 
   top-5 left-5          /* Celulares */
   md:top-10 md:left-10   /* Tablets */
-  lg:top-5 lg:left-10   /* Tablets */
+  lg:top-15 lg:left-10   /* Tablets */
   xl:top-25 xl:left-25   /* Escritorio */
   text-white 
   text-sm md:text-2xl lg:text-4xl xl:text-[47px]

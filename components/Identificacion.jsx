@@ -112,7 +112,7 @@ const Identificacion = () => {
     top-20 -left-16
     md:top-40 md:-left-27
     lg:top-40 lg:-left-32
-    xl:top-70 xl:-left-40
+    xl:top-65 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -157,7 +157,7 @@ const Identificacion = () => {
     top-59 -left-16
     md:top-110 md:-left-27
     lg:top-125 lg:-left-32
-    xl:top-200 xl:-left-40
+    xl:top-190 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -205,7 +205,7 @@ const Identificacion = () => {
     top-84 -left-16
     md:top-158 md:-left-27
     lg:top-180 lg:-left-32
-   xl:top-280 xl:-left-40
+   xl:top-270 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
