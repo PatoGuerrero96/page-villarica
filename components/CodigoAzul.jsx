@@ -90,7 +90,7 @@ className="
   className="
     absolute
     top-28 -left-16
-    md:top-55 md:-left-27
+    md:top-50 md:-left-27
     lg:top-58 lg:-left-32
     xl:top-75 xl:-left-40
     w-28 h-28
@@ -118,10 +118,10 @@ className="
   </text>
 </svg>
 
-        <p className="text-[12px] sm:text-xs md:text-4xl lg:text-4xl xl:text-5xl  text-left">
+        <p className="text-[12px] sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           Actívalo si la persona <strong>no se mueve, no </strong>          
         </p>
-        <p className="text-xs md:text-4xl lg:text-4xl xl:text-5xl text-left font-bold">
+        <p className="text-xs md:text-3xl lg:text-4xl xl:text-5xl text-left font-bold">
                responde o no respira.         
         </p>
         </div>
@@ -131,7 +131,7 @@ className="
   className="
     absolute
     top-40 -left-16
-    md:top-82 md:-left-27
+    md:top-76 md:-left-27
     lg:top-87 lg:-left-32
     xl:top-115 xl:-left-40
     w-28 h-28
@@ -159,10 +159,10 @@ className="
   </text>
 </svg>
 
-        <p className="text-[12px] sm:text-xs md:text-4xl lg:text-4xl xl:text-5xl  text-left">
+        <p className="text-[12px] sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           <strong className="font-bold">Llama o avisa en voz alta </strong>indicando: 
         </p>
-           <p className=" italic font-bold  text-[10px] sm:text-xs md:text-[30px] lg:text-3xl xl:text-5xl  text-left">
+           <p className=" italic font-bold  text-[10px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           “Código Azul – niño o adulto – lugar del hospital”
         </p>
 
@@ -173,7 +173,7 @@ className="
   className="
     absolute
     top-52 -left-16
-    md:top-110 md:-left-27
+    md:top-103 md:-left-27
     lg:top-115 lg:-left-32
    xl:top-155 xl:-left-40
     w-28 h-28
@@ -200,7 +200,7 @@ className="
     03
   </text>
 </svg>
-        <p className="text-[11px] sm:text-xs md:text-[30px] lg:text-3xl xl:text-5xl text-left">
+        <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left">
           Mientras llega el equipo, <strong className="font-bold">acompaña y ayuda</strong>
         </p>
         <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left">

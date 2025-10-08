@@ -114,16 +114,16 @@ const GestionReclamos = () => {
   </text>
 </svg>
 
-        <p className=" text-[13px] sm:text-sm md:text-4xl lg:text-4xl xl:text-6xl  text-left">
+        <p className=" text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           Encuentra <strong>buzones y formularios</strong> en    
         </p>
-          <p className="text-[13px] sm:text-sm md:text-4xl lg:text-4xl xl:text-6xl  text-left">
+          <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           distintos servicios del hospital.   
         </p>
-          <p className="text-[13px] sm:text-sm md:text-4xl lg:text-4xl xl:text-6xl  text-left">
+          <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
          <strong>Usa el más cercano</strong>  para dejar 
         </p>
-          <p className="text-[12px] sm:text-sm md:text-4xl lg:text-4xl xl:text-6xl  text-left">
+          <p className="text-[12px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
          sugerencias, felicitaciones o reclamos.
         </p>
 

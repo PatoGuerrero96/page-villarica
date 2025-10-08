@@ -2,94 +2,72 @@ import React from "react";
 
 const Esteriliza = () => {
   return (
-<div className="relative w-full h-[40vh] md:h-[50vh] lg:h-[110vh] xl:h-[110vh]  overflow-hidden bg-verde-oscuro z-10">
-  {/* svg amarillo */}
-    <svg
-className="
-  absolute 
-  -top-6 -left-2
-  md:-top-12 md:-left-2
-  lg:-top-10 lg:-left-2
-  xl:-top-60 xl:-left-10
-  w-27 h-17
-  md:w-45 md:h-35
-  lg:w-55 lg:h-45
-  xl:w-150 xl:h-130
-"
-    viewBox="0 0 29.44 14.72"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <g>
-      <path
-        fill="#FFF200"
-        d="M14.72,14.72C6.59,14.72,0,8.13,0,0h29.44c0,8.13-6.59,14.72-14.72,14.72Z"
-      />
-    </g>
-  </svg>
-    {/* svg naranjo*/}
-  <svg
-className="
-  absolute 
-  -top-5 left-27
-  md:-top-12 md:left-20
-  lg:-top-10 lg:left-40
-  xl:-top-30 xl:left-60
-  w-15 h-10
-  md:w-100 md:h-20
-  lg:w-80 lg:h-20
-  xl:w-230 xl:h-50
-"
-    viewBox="0 0 29.44 14.72"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <g>
-      <path
-        fill="#ff5d00"
-        d="M14.72,14.72C6.59,14.72,0,8.13,0,0h29.44c0,8.13-6.59,14.72-14.72,14.72Z"
-      />
-    </g>
-  </svg>
-  {/* Círculo rojo parcialmente visible */}
+<div className="relative w-full h-full overflow-hidden bg-verde-oscuro z-10">
+  {/* Círculo azul parcialmente visible */}
 <svg
   className="
     absolute 
-    top-5 -right-10
-    md:top-10 md:-right-15
-    lg:top-10 lg:-right-12
-    xl:top-10 xl:-right-10
-    w-30 h-30
-    md:w-48 md:h-68
-    lg:w-40 lg:h-48
-    xl:w-60 xl:h-100
+    top-0 -left-5
+    md:top-0 md:-left-10
+    lg:top-0 lg:-left-8
+    xl:top-0 xl:-left-12
+    w-10 h-15
+    md:w-20 md:h-36
+    lg:w-18 lg:h-36
+    xl:w-28 xl:h-56
+    z-30
   "
-  viewBox="0 0 22.76 45.97"
+  viewBox="0 0 21.25 42.5"
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
-    fill="#e72d45"
-    d="M0,22.98C0,10.28,10.19,0,22.76,0v45.97C10.19,45.97,0,35.68,0,22.98Z"
+    fill="#105afb"
+    d="M21.25,21.25c0,11.74-9.52,21.25-21.25,21.25V0c11.73,0,21.25,9.52,21.25,21.25Z"
   />
 </svg>
+  {/* circulo amarillo */}
+  <svg
+  className="
+    absolute 
+     top-5 right-8
+     md:top-2 md:right-25
+    lg:top-10 lg:right-30
+    xl:top-12 xl:right-30
+    w-10 h-10
+    md:w-25 md:h-35
+    lg:w-24 lg:h-30
+    xl:w-40 xl:h-50
+  "
+  viewBox="0 0 37.22 37.22"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+        fill="#b5ff63"
+    cx="18.61"
+    cy="18.61"
+    r="18.61"
 
+  />
+</svg>
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-black flex flex-col w-full">
-    <h2 className="text-xl sm:text-xl md:text-5xl lg:text-5xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-4 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
-    ESTERILIZA
+    <h2 className="text-md sm:text-xl md:text-4xl lg:text-4xl xl:text-6xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-3 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+      ESTERILIZA
     </h2>
 
-    <div className="w-full flex flex-col justify-center h-full">
+    <div className="w-full flex flex-col justify-center h-full mt-8 md:mt-15 lg:mt-20 xl:mt-25">
 
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-0">
+        <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-0 ">
             {/* numero 1 */}
           <svg
   className="
     absolute
-    top-31 -left-15
-    md:top-55 md:-left-27
-    lg:top-58 lg:-left-32
-    xl:top-75 xl:-left-40
+    top-17 -left-16
+    md:top-36 md:-left-27
+    lg:top-42 lg:-left-32
+    xl:top-65 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -100,7 +78,7 @@ className="
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
-    fill="#fef237"
+   fill="#FFF200"
     d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
   />
   <text
@@ -115,27 +93,32 @@ className="
   </text>
 </svg>
 
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left mt-10">
+        <p className=" leading-tight text-[15px] sm:text-sm md:text-[40px] lg:text-5xl xl:text-7xl text-left mb-2 md:mb-4 xl:mb-8">
           <strong>Esteriliza siempre</strong> el material
         </p>
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left">
-        se lavan y desinfectan <strong>se lavan y desinfectan</strong>   
+          <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+         Los instrumentos <strong>se lavan y desinfectan</strong>
         </p>
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left ">
-           en la central de esterilización para
+          <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+         en la central de esterilización para 
         </p>
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left ">
-          <strong>garantizar seguridad</strong> en cada
+          <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+         <strong>garantizar seguridad</strong> en cada
         </p>
-        <p className="text-md md:text-4xl lg:text-4xl xl:text-5xl text-left ">
-         procedimiento.  
+          <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+         procedimiento.
         </p>
+
+
         </div>
-   
+     
 
   
       </div>
     </div>
+
+  </div>
+      <div className="mt-15 md:mt-20 lg:mt-20 xl:mt-30">
 
   </div>
 </div>

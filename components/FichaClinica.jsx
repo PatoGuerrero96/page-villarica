@@ -8,7 +8,7 @@ const FichaClinica = () => {
   className="
     absolute 
      top-5 left-4
-     md:top-10 md:left-25
+     md:top-10 md:left-15
     lg:top-10 lg:left-30
     xl:top-15 xl:left-90
     w-14 h-14
@@ -32,7 +32,7 @@ const FichaClinica = () => {
   className="
     absolute 
      top-65 right-5
-     md:top-115 md:right-15
+     md:top-105 md:right-15
     lg:top-110 lg:right-15
     xl:top-140 xl:right-30
     w-15 h-15
@@ -58,7 +58,7 @@ const FichaClinica = () => {
     </h2>
 
     <div className="w-full flex flex-col justify-center h-full">
-      <p className=" text-[15px] sm:text-md md:text-4xl lg:text-[40px] xl:text-7xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10">
+      <p className=" text-[15px] sm:text-md md:text-4xl lg:text-[40px] xl:text-6xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10">
         La ficha clínica es <strong>única y confidencia</strong>
       </p>
 
@@ -71,7 +71,7 @@ const FichaClinica = () => {
     top-27 -left-16
     md:top-53 md:-left-27
     lg:top-58 lg:-left-32
-    xl:top-87 xl:-left-40
+    xl:top-80 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -97,10 +97,10 @@ const FichaClinica = () => {
   </text>
 </svg>
 
-        <p className="text-[13px] sm:text-sm md:text-4xl lg:text-4xl xl:text-6xl  text-left">
+        <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           Está disponible en papel o en formato        
         </p>
-   <p className="text-[13px] sm:text-sm md:text-4xl lg:text-4xl xl:text-6xl text-left font-bold">
+   <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl text-left font-bold">
   electrónico.{" "}
   <a
     href="https://login.ssasur.cl"
@@ -121,7 +121,7 @@ const FichaClinica = () => {
     top-41 -left-16
     md:top-80 md:-left-27
     lg:top-87 lg:-left-32
-    xl:top-130 xl:-left-40
+    xl:top-120 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -147,10 +147,10 @@ const FichaClinica = () => {
   </text>
 </svg>
 
-        <p className="text-[13px] sm:text-sm md:text-4xl lg:text-4xl xl:text-6xl  text-left">
+        <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           Solo accedes con tu <strong >clave personal</strong> 
         </p>
-           <p className="  font-bold  text-[13px] sm:text-sm md:text-4xl lg:text-4xl xl:text-6xl  text-left">
+           <p className="  font-bold  text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
          <strong>vinculada al RUN del paciente.</strong>
         </p>
 

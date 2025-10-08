@@ -3,18 +3,42 @@ import React from "react";
 const AccidenteFluidos = () => {
   return (
 <div className="relative w-full h-full  overflow-hidden bg-naranjo z-10">
+    {/* circulo azul */}
+  <svg
+  className="
+    absolute 
+     top-38 right-5
+     md:top-85 md:right-8
+    lg:top-91 lg:right-10
+    xl:top-130 xl:right-30
+    w-8 h-8
+     md:w-16 md:h-16
+      lg:w-17 lg:h-17
+       xl:w-30 xl:h-30
+  "
+  viewBox="0 0 37.22 37.22"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+     fill="#105afb"
+    cx="18.61"
+    cy="18.61"
+    r="18.61"
+
+  />
+</svg>
   {/* Círculo verde parcialmente visible */}
 <svg
   className="
     absolute 
     top-45 -right-10
-    md:top-75 md:-right-15
-    lg:top-80 lg:-right-15
-    xl:top-125 xl:-right-8
+    md:top-105 md:-right-15
+    lg:top-110 lg:-right-15
+    xl:top-150 xl:-right-8
     w-20 h-20
     md:w-40 md:h-40
     lg:w-40 lg:h-48
-    xl:w-25 xl:h-60
+    xl:w-30 xl:h-70
   "
   viewBox="0 0 22.76 45.97"
   xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +58,7 @@ const AccidenteFluidos = () => {
 
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-9 md:ml-20 lg:ml-10 xl:ml-25">
+        <div className="ml-9 md:ml-23 lg:ml-10 xl:ml-25">
             {/* numero 1 */}
           <svg
   className="
@@ -68,14 +92,14 @@ const AccidenteFluidos = () => {
   </text>
 </svg>
 
-        <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
+        <p className="text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
           <strong>Lava de inmediato</strong> con agua y jabón sin
         </p>
          <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
            frotar la herida.
         </p>
         </div>
-         <div className="ml-9 md:ml-20 lg:ml-10 xl:ml-25">
+         <div className="ml-9 md:ml-23 lg:ml-10 xl:ml-25">
                    {/* numero 2 */}
           <svg
   className="
@@ -117,7 +141,7 @@ const AccidenteFluidos = () => {
 
 
         </div>       
-        <div className="ml-9 md:ml-20 lg:ml-10 xl:ml-25  ">
+        <div className="ml-9 md:ml-23 lg:ml-10 xl:ml-25  ">
                                      {/* numero 3 */}
           <svg
   className="
@@ -156,7 +180,7 @@ const AccidenteFluidos = () => {
 
 
         </div>
-         <div className="ml-9 md:ml-20 lg:ml-10 xl:ml-25 mt-2 xl:mt-0 lg:mt-0 md:mt-0">
+         <div className="ml-9 md:ml-23 lg:ml-10 xl:ml-25 mt-2 xl:mt-0 lg:mt-0 md:mt-0">
                                      {/* numero 4 */}
           <svg
   className="

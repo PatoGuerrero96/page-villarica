@@ -50,7 +50,7 @@ const Identificacion = () => {
   className="
     absolute 
     top-50 right-60
-    md:top-85 md:right-155
+    md:top-82 md:right-135
     lg:top-100 lg:right-180
     xl:top-135 xl:right-310
     w-17 h-17
@@ -74,7 +74,7 @@ const Identificacion = () => {
   className="
     absolute 
      top-52 right-45
-     md:top-88 md:right-115
+     md:top-85 md:right-100
     lg:top-105 lg:right-140
     xl:top-142 xl:right-260
     w-12 h-12
@@ -138,13 +138,13 @@ const Identificacion = () => {
   </text>
 </svg>
 
-        <p className="text-md sm:text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
+        <p className="text-md sm:text-md md:text-3xl lg:text-4xl xl:text-6xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
         <strong>Identifica siempre</strong> al paciente       
         </p>
-        <p className="text-[11px] sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl text-left ">
+        <p className="text-[11px] sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
          Usa <strong>nombre completo y RUN</strong>  en adultos y   
         </p>
-         <p className="text-[12px] sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl text-left ">
+         <p className="text-[12px] sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
          pediátricos. Esto evita confusiones.    
         </p>
 
@@ -155,7 +155,7 @@ const Identificacion = () => {
   className="
     absolute
     top-59 -left-16
-    md:top-113 md:-left-27
+    md:top-110 md:-left-27
     lg:top-125 lg:-left-32
     xl:top-200 xl:-left-40
     w-28 h-28
@@ -183,16 +183,16 @@ const Identificacion = () => {
   </text>
 </svg>
 
-        <p className="text-sm sm:text-md md:text-4xl lg:text-4xl xl:text-6xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
+        <p className="text-sm sm:text-md md:text-3xl lg:text-4xl xl:text-6xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
           <strong className="font-bold">Recién nacidos,</strong>identifica la madre 
         </p>
-           <p className=" text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl  text-left">
+           <p className=" text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           Anota <strong>nombre y apellidos de la madre</strong>, su
         </p>
-          <p className=" text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl  text-left">
+          <p className=" text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           RUN, junto con fecha, hora de nacimiento
         </p>
-          <p className=" text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl  text-left">
+          <p className=" text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           y sexo del bebé.
         </p>
 
@@ -203,7 +203,7 @@ const Identificacion = () => {
   className="
     absolute
     top-84 -left-16
-    md:top-165 md:-left-27
+    md:top-158 md:-left-27
     lg:top-180 lg:-left-32
    xl:top-280 xl:-left-40
     w-28 h-28
@@ -230,13 +230,13 @@ const Identificacion = () => {
     03
   </text>
 </svg>
-        <p className="text-[13px] sm:text-md md:text-4xl lg:text-3xl xl:text-6xl text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
+        <p className="text-[13px] sm:text-md md:text-3xl lg:text-3xl xl:text-6xl text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
           Si no conoces la identidad, <strong className="font-bold">usa "NN"</strong>
         </p>
-        <p className="text-[11px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left">
+        <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left">
          Cuando la persona llega sin identificación,
         </p>
-        <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left">
+        <p className="text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left">
         <strong>asigna nombre "NN" y RUN provisorio.</strong> 
         </p>
 
