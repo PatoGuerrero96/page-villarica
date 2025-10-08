@@ -28,7 +28,7 @@ const Seccion = () => {
 </div>
   {/* Fondo texturizado */}
 <Image
-  src="/fondoseccion.png"
+  src="/bottom.png"
   alt="Fondo texturizado"
   width={2560}
   height={1080}
