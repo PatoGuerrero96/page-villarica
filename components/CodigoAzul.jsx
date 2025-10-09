@@ -1,10 +1,12 @@
 
 import React from "react";
+
 const CodigoAzul = () => {
   return (
-    
+    <div>
 <div className="relative w-full h-full  overflow-hidden bg-azul z-10">
   {/* svg amarillo */}
+ 
     <svg
 className="
   absolute 
@@ -54,7 +56,7 @@ className="
 <svg
   className="
     absolute 
-    top-5 -right-10
+    top-5 -right-12
     md:top-10 md:-right-15
     lg:top-10 lg:-right-12
     xl:top-10 xl:-right-10
@@ -213,11 +215,13 @@ className="
     </div>
 
   </div>
-    <div className="mt-30">
+    <div className=" mt-20 xl:mt-40">
 
   </div>
 </div>
 
+
+ </div>
   );
 };
 
