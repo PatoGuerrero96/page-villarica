@@ -95,7 +95,7 @@ const PlanEmergencia = () => {
 
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-25 text-black flex flex-col w-full">
-    <h2 className=" text-[13px] sm:text-sm  md:text-3xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className=" text-[13px] sm:text-sm  md:text-3xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-4 lg:py-5 xl:py-5 inline-block mx-auto">
       PLAN DE EMERGENCIA Y EVACUACIÓN
     </h2>
 

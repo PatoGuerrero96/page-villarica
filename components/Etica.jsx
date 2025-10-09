@@ -6,7 +6,7 @@ const Etica = () => {
 
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-black flex flex-col w-full">
-    <h2 className="text-md sm:text-xl md:text-4xl lg:text-4xl xl:text-6xl md:mt-10 lg:mt-10 xl:mt-10 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className="text-md sm:text-xl md:text-4xl lg:text-4xl xl:text-6xl md:mt-10 lg:mt-10 xl:mt-10 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-4 lg:py-5 xl:py-5 inline-block mx-auto">
       ÉTICA EN CADA DECISIÓN
     </h2>
 
