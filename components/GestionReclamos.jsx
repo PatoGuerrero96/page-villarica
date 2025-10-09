@@ -70,13 +70,13 @@ const GestionReclamos = () => {
 
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-white flex flex-col w-full">
-    <h2 className="text-md sm:text-xl md:text-4xl lg:text-5xl xl:text-6xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-3 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className="text-md sm:text-xl md:text-4xl lg:text-5xl xl:text-6xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
       GESTIÓN DE RECLAMOS
     </h2>
 
     <div className="w-full flex flex-col justify-center h-full">
-      <p className="text-md md:text-4xl lg:text-[40px] xl:text-7xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10">
-      <strong>Tu opinión importa</strong>
+      <p className="text-md md:text-4xl lg:text-[40px] xl:text-7xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10 font-extrabold">
+      Tu opinión importa
       </p>
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
@@ -115,13 +115,13 @@ const GestionReclamos = () => {
 </svg>
 
         <p className=" text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
-          Encuentra <strong>buzones y formularios</strong> en    
+          Encuentra <span className="font-extrabold">buzones y formularios</span> en    
         </p>
           <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           distintos servicios del hospital.   
         </p>
           <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
-         <strong>Usa el más cercano</strong>  para dejar 
+         <span className="font-extrabold">Usa el más cercano</span>  para dejar 
         </p>
           <p className="text-[12px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
          sugerencias, felicitaciones o reclamos.
@@ -136,7 +136,7 @@ const GestionReclamos = () => {
     </div>
 
   </div>
-      <div className="mt-15 md:mt-20 lg:mt-20 xl:mt-25">
+      <div className="mt-15 md:mt-20 lg:mt-20 xl:mt-35">
 
   </div>
 </div>

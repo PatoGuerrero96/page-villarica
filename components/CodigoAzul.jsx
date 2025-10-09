@@ -76,7 +76,7 @@ className="
 
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-white flex flex-col w-full">
-    <h2 className="text-xl sm:text-xl md:text-5xl lg:text-5xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-3 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className="text-xl sm:text-xl md:text-5xl lg:text-5xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
       Código Azul
     </h2>
 
@@ -121,9 +121,9 @@ className="
 </svg>
 
         <p className="text-[12px] sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl  text-left">
-          Actívalo si la persona <strong>no se mueve, no </strong>          
+          Actívalo si la persona <span className="font-extrabold">no se mueve, no </span>          
         </p>
-        <p className="text-xs md:text-3xl lg:text-4xl xl:text-5xl text-left font-bold">
+        <p className="text-xs md:text-3xl lg:text-4xl xl:text-5xl text-left font-extrabold">
                responde o no respira.         
         </p>
         </div>
@@ -162,9 +162,9 @@ className="
 </svg>
 
         <p className="text-[12px] sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl  text-left">
-          <strong className="font-bold">Llama o avisa en voz alta </strong>indicando: 
+          <strong className="font-extrabold">Llama o avisa en voz alta </strong>indicando: 
         </p>
-           <p className=" italic font-bold  text-[10px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+           <p className=" italic font-extrabold  text-[10px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           “Código Azul – niño o adulto – lugar del hospital”
         </p>
 
@@ -203,10 +203,10 @@ className="
   </text>
 </svg>
         <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left">
-          Mientras llega el equipo, <strong className="font-bold">acompaña y ayuda</strong>
+          Mientras llega el equipo, <strong className="font-extrabold">acompaña y ayuda</strong>
         </p>
         <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left">
-         <strong className="font-bold">al paciente</strong> si sabes cómo hacerlo.
+         <strong className="font-extrabold">al paciente</strong> si sabes cómo hacerlo.
         </p>
 
         </div>
@@ -215,7 +215,7 @@ className="
     </div>
 
   </div>
-    <div className=" mt-20 xl:mt-40">
+    <div className=" mt-20 xl:mt-30">
 
   </div>
 </div>

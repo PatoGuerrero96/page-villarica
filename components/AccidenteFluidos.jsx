@@ -2,7 +2,7 @@ import React from "react";
 
 const AccidenteFluidos = () => {
   return (
-<div className="relative w-full h-full  overflow-hidden bg-naranjo z-10">
+<div className="relative w-full h-full  overflow-hidden bg-naranjo z-80">
     {/* circulo azul */}
   <svg
   className="
@@ -50,7 +50,7 @@ const AccidenteFluidos = () => {
 </svg>
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-25 text-white flex flex-col w-full">
-    <h2 className="text-sm  md:text-3xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-3 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className="text-sm  md:text-3xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6  border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
       ANTE UN ACCIDENTE DE FLUIDOS
     </h2>
 
@@ -93,7 +93,7 @@ const AccidenteFluidos = () => {
 </svg>
 
         <p className="text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
-          <strong>Lava de inmediato</strong> con agua y jabón sin
+          <span className="font-extrabold">Lava de inmediato</span> con agua y jabón sin
         </p>
          <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
            frotar la herida.
@@ -133,10 +133,10 @@ const AccidenteFluidos = () => {
   </text>
 </svg>
         <p className="text-[11px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-        Si hubo contacto en <strong> ojos o boca, enjuaga</strong>
+        Si hubo contacto en <span className="font-extrabold"> ojos o boca, enjuaga</span>
         </p>
          <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-           con <strong>suero o agua potable.</strong>
+           con <span className="font-extrabold">suero o agua potable.</span>
         </p>
 
 
@@ -175,7 +175,7 @@ const AccidenteFluidos = () => {
   </text>
 </svg>
         <p className="text-[11px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-          Si la ropa se <strong>contamina, retírala y dúchate</strong>
+          Si la ropa se <span className="font-extrabold">contamina, retírala y dúchate</span>
         </p>
 
 
@@ -215,7 +215,7 @@ const AccidenteFluidos = () => {
 </svg>
 
         <p className="text-[11px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-        <strong>Informa a tu jefatura</strong> y <strong>acude a urgencias </strong>
+        <span className="font-extrabold">Informa a tu jefatura</span> y <span className="font-extrabold">acude a urgencias </span>
         </p>
          <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
           para recibir atención.

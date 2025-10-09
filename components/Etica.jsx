@@ -2,11 +2,11 @@ import React from "react";
 
 const Etica = () => {
   return (
-<div className="relative w-full h-full overflow-hidden bg-verde z-10">
+<div className="relative w-full h-full overflow-hidden bg-verde z-80">
 
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-black flex flex-col w-full">
-    <h2 className="text-md sm:text-xl md:text-4xl lg:text-4xl xl:text-6xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-3 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className="text-md sm:text-xl md:text-4xl lg:text-4xl xl:text-6xl md:mt-10 lg:mt-10 xl:mt-10 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
       ÉTICA EN CADA DECISIÓN
     </h2>
 
@@ -49,19 +49,19 @@ const Etica = () => {
 </svg>
 
         <p className=" leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
-          <strong>Toda solicitud</strong> debe pasar por el <strong>Comité de</strong>
+          <span className="font-extrabold">Toda solicitud</span> debe pasar por el <span className="font-extrabold">Comité de</span>
         </p>
           <p className="leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
-          <strong>Ética Asistencial. Accede con el formulario o </strong>
+          <span className="font-extrabold">Ética Asistencial. Accede con el formulario o </span>
         </p>
           <p className="leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
-         <strong>QR,</strong> y registra tu investigación en la <strong>Oficina de</strong>
+         <span className="font-extrabold">QR,</span> y registra tu investigación en la <span className="font-extrabold">Oficina de</span>
         </p>
           <p className="leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
-         <strong>Calidad para asegurar transparencia y</strong>
+         <span className="font-extrabold">Calidad para asegurar transparencia y</span>
         </p>
           <p className="leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
-         <strong>respeto a los pacientes.</strong>
+         <span className="font-extrabold">respeto a los pacientes.</span>
         </p>
 
 

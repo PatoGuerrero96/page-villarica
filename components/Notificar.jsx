@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 const Notificar = () => {
   return (
-<div className="relative w-full h-full overflow-hidden bg-azul z-10">
+<div className="relative w-full h-full overflow-hidden bg-azul ">
   {/* Círculo verde parcialmente visible */}
 <svg
   className="
@@ -27,7 +27,7 @@ const Notificar = () => {
 </svg>
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-white flex flex-col w-full">
-    <h2 className="bg-black text-md sm:text-lg md:text-4xl lg:text-4xl xl:text-5xl mt-5 md:mt-15 lg:mt-20 xl:mt-10 font-bold text-center uppercase  rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className="relative bg-black text-md sm:text-lg md:text-4xl lg:text-4xl xl:text-6xl mt-5 md:mt-15 lg:mt-20 xl:mt-10 font-black text-center uppercase  rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto z-60 ">
       NOTIFICAR ES FÁCIL Y RÁPIDO
     </h2>
 
@@ -70,13 +70,13 @@ const Notificar = () => {
 </svg>
 
         <p className="text-[12px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          Cualquier funcionario puede <strong>informar</strong>  
+          Cualquier funcionario puede <span className="font-extrabold">informar</span>  
         </p>
           <p className="text-[11.5px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          <strong>incidentes o eventos</strong> adversos a través del 
+          <span className="font-extrabold">incidentes o eventos</span> adversos a través del 
         </p>
           <p className="text-[12px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          <strong>link o QR.</strong> 
+          <span className="font-extrabold">link o QR.</span> 
         </p>
 
 
@@ -116,10 +116,10 @@ const Notificar = () => {
 </svg>
 
         <p className="text-[11px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          La notificación<strong> llega a la Oficina de Calidad</strong> y
+          La notificación<span className="font-extrabold"> llega a la Oficina de Calidad</span> y
         </p>
            <p className="   text-[11.5px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-         <strong>puede hacerse de forma anónima.</strong>
+         <span className="font-extrabold">puede hacerse de forma anónima.</span>
         </p>
 
 

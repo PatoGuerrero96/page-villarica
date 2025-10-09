@@ -11,7 +11,7 @@ const Seccion = () => {
   xl:top-15 xl:left-25   /* Escritorio */
   text-white 
   text-[11px] md:text-2xl lg:text-3xl xl:text-[47px]
-  font-bold 
+  font-light
   [writing-mode:vertical-rl] rotate-180
 ">
   Hospital Villarrica

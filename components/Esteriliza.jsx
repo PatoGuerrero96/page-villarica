@@ -29,8 +29,8 @@ const Esteriliza = () => {
   <svg
   className="
     absolute 
-     top-5 right-8
-     md:top-2 md:right-25
+     top-10 right-8
+     md:top-8 md:right-25
     lg:top-10 lg:right-30
     xl:top-12 xl:right-30
     w-10 h-10
@@ -51,7 +51,7 @@ const Esteriliza = () => {
 </svg>
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-black flex flex-col w-full">
-    <h2 className="text-md sm:text-xl md:text-4xl lg:text-4xl xl:text-6xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-3 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className="text-md sm:text-xl md:text-4xl lg:text-4xl xl:text-6xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
       ESTERILIZA
     </h2>
 
@@ -93,17 +93,17 @@ const Esteriliza = () => {
   </text>
 </svg>
 
-        <p className=" leading-tight text-[15px] sm:text-sm md:text-[40px] lg:text-5xl xl:text-7xl text-left mb-2 md:mb-4 xl:mb-8">
-          <strong>Esteriliza siempre</strong> el material
+        <p className=" leading-tight text-[15px] sm:text-sm md:text-[40px] lg:text-5xl xl:text-7xl text-left mb-2 md:mb-4 xl:mb-8 font-bold">
+          <span className="font-black">Esteriliza siempre</span> el material
         </p>
           <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
-         Los instrumentos <strong>se lavan y desinfectan</strong>
+         Los instrumentos <span className="font-extrabold">se lavan y desinfectan</span>
         </p>
           <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
          en la central de esterilización para 
         </p>
           <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
-         <strong>garantizar seguridad</strong> en cada
+         <span className="font-extrabold">garantizar seguridad</span> en cada
         </p>
           <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
          procedimiento.

@@ -15,31 +15,7 @@ import Identificacion from "@/components/Identificacion";
 export default function Home() {
   return (
 <main>
-            {/* circulo rojo */}
-  <svg
-  className="
-    absolute 
-    top-143 right-10
-    md:top-257 md:right-30
-    lg:top-350 lg:right-30
-    xl:top-407 xl:right-70
-    w-11 h-11
-    md:w-25 md:h-25
-    lg:w-30 lg:h-30
-    xl:w-40 xl:h-40
-    z-50
-  "
-  viewBox="0 0 37.22 37.22"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <circle
-     fill="#e72d45"
-    cx="18.61"
-    cy="18.61"
-    r="18.61"
 
-  />
-</svg>
 <div className="relative w-full">
   {/* Fondo texturizado */}
 <Image
@@ -73,7 +49,7 @@ export default function Home() {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, ease: "easeOut" }}
-              className="text-2xl sm:text-3xl md:text-6xl lg:text-6xl xl:text-9xl font-bold text-white"
+              className="font-extrabold text-2xl sm:text-3xl md:text-6xl lg:text-6xl xl:text-[120px] text-white"
             >
               JUNTOS SOMOS
             </motion.p>
@@ -82,7 +58,7 @@ export default function Home() {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
-              className="text-2xl sm:text-3xl md:text-6xl lg:text-6xl xl:text-9xl font-extrabold text-white"
+              className="font-extrabold text-2xl sm:text-3xl md:text-6xl lg:text-6xl xl:text-[120px]  text-white"
             >
               MÁS CALIDAD
             </motion.p>
@@ -100,7 +76,7 @@ export default function Home() {
     xl:top-25 xl:left-25
     text-white 
     text-sm md:text-2xl lg:text-4xl xl:text-[47px]
-    font-bold 
+     font-light
     [writing-mode:vertical-rl] rotate-180
     
   "
@@ -126,7 +102,7 @@ export default function Home() {
   initial={{ x: -100, opacity: 0 }}  
   animate={{ x: 0, opacity: 1 }}     
   transition={{ duration: 1, ease: "easeOut" }}  
-  className="text-azul text-xs md:text-2xl lg:text-3xl xl:text-5xl"
+  className="font-bold text-azul text-xs md:text-2xl lg:text-3xl xl:text-5xl"
 >
   acreditación <span className="font-bold">2025</span>
 </motion.p>
@@ -137,21 +113,123 @@ export default function Home() {
   </div>
 </div>
 
-      <div className="">
+      <div className="relative ">
+    <CodigoAzul />
+{/* circulo rojo*/}
+<div className="bg-azul">
+<svg
+  className="w-12 h-12 md:w-20 md:h-20 lg:w-20 lg:h-20 xl:w-48 xl:h-48 ml-auto  mr-4 md:mr-20 xl:mr-60   -mt-10 -mb-5 md:-mt-10 md:-mb-10 xl:-mt-1 xl:-mb-20 relative z-50"
+  viewBox="0 0 37.22 37.22"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    fill="#e72d45"
+    cx="18.61"
+    cy="18.61"
+    r="18.61"
+  />
+</svg>
+</div>
+    <Identificacion />
+    <div className="bg-verde">
+    {/* circulo morado*/}
+<svg
+  className="w-8 h-8 md:w-20 md:h-20 lg:w-20 lg:h-20 xl:w-28 xl:h-28 ml-auto  mr-4 md:mr-20 xl:mr-60   -mt-10 -mb-5 md:-mt-10 md:-mb-10 xl:-mt-4 xl:-mb-15 relative z-50"
+  viewBox="0 0 37.22 37.22"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    fill="#bc5ffb"
+    cx="18.61"
+    cy="18.61"
+    r="18.61"
+  />
+</svg>
+</div>
+    <PlanEmergencia />
+    <FichaClinica />
+    <GestionReclamos />
+    <AccidenteFluidos />
+    <Responsabilidad />
+    {/* circulo Morado*/}
+<div className="bg-verde flex justify-between items-center -mt-10 -mb-5 md:-mt-10 md:-mb-10 xl:-mt-1 xl:-mb-30 relative z-50 py-2 md:py-4 xl:py-8">
+  {/* Contenedor de círculos izquierda */}
+  <div className="flex gap-2 md:gap-4 lg:gap-6 xl:gap-8 ml-4 md:ml-20 xl:ml-20">
+    {/* Primer círculo izquierda */}
+    <svg
+      className="w-8 h-8 md:w-18 md:h-18 lg:w-18 lg:h-18 xl:w-26 xl:h-26 transform -translate-y-4/5"
+      viewBox="0 0 37.22 37.22"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+       fill="#e62b49"
+        cx="18.61"
+        cy="18.61"
+        r="18.61"
+      />
+    </svg>
+    
+    {/* Segundo círculo izquierda */}
+    <svg
+      className="w-10 h-10 md:w-18 md:h-18 lg:w-18 lg:h-18 xl:w-30 xl:h-30 transform -translate-y-5/6"
+      viewBox="0 0 37.22 37.22"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+         fill="#105afb"
+        cx="18.61"
+        cy="18.61"
+        r="18.61"
+      />
+    </svg>
+  </div>
 
-        <CodigoAzul />
-        <Identificacion />
-        <PlanEmergencia />
-        <FichaClinica />
-         <GestionReclamos />
-         <AccidenteFluidos />
-         <Responsabilidad />
-         <Etica />
-         <Esteriliza />
-         <Notificar />
-         <Seccion />
+  {/* Círculo derecha */}
+  <svg
+    className="w-10 h-10 md:w-18 md:h-18 lg:w-18 lg:h-18 xl:w-36 xl:h-36 mr-4 md:mr-20 xl:mr-60 transform -translate-y-4/5"
+    viewBox="0 0 37.22 37.22"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      fill="#bc5ffb"
+      cx="18.61"
+      cy="18.61"
+      r="18.61"
+    />
+  </svg>
+</div>
 
-      </div>
+    <Etica />
+        <div className="bg-verde">
+
+<svg
+  className="w-30 h-30 md:w-50 md:h-50 lg:w-60 lg:h-60 xl:w-80 xl:h-80 ml-auto  mr-0 md:mr-0 xl:mr-0  -mt-10 -mb-14  md:-mt-20 md:-mb-25  lg:-mt-20 lg:-mb-30  xl:-mt-30 xl:-mb-40 relative z-100"
+  viewBox="0 0 67.42 19.26"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path fill="#fff200" d="M67.42,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h57.79v19.26Z"/>
+</svg>
+</div>
+    <Esteriliza />
+    {/* circulo verde*/}
+<div className="bg-verde-oscuro">
+<svg
+  className="w-12 h-12 md:w-30 md:h-30 lg:w-30 lg:h-30 xl:w-50 xl:h-50 ml-auto  mr-4 md:mr-20 xl:mr-100   -mt-5 -mb-5 md:-mt-10 md:-mb-14 xl:-mt-1 xl:-mb-25 relative z-50"
+  viewBox="0 0 37.22 37.22"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    fill="#e72d45"
+    cx="18.61"
+    cy="18.61"
+    r="18.61"
+  />
+</svg>
+
+</div>
+    <Notificar />
+    <Seccion />
+  </div>
 </main>
 
 

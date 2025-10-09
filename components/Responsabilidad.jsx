@@ -6,7 +6,7 @@ const Responsabilidad = () => {
 
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-black flex flex-col w-full">
-    <h2 className="text-sm sm:text-lg md:text-4xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-bold text-center uppercase border-3 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
+    <h2 className="text-sm sm:text-lg md:text-4xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto">
       INVESTIGAR CON RESPONSABILIDAD
     </h2>
 
@@ -52,7 +52,7 @@ const Responsabilidad = () => {
           Toda investigación en personas debe ser     
         </p>
           <p className="text-[11px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          <strong>autorizada </strong>por la <strong>Dirección y el Comité Ético.</strong>
+          <span className="font-extrabold">autorizada </span>por la <span className="font-extrabold">Dirección y el Comité Ético.</span>
         </p>
 
 
@@ -92,13 +92,13 @@ const Responsabilidad = () => {
 </svg>
 
         <p className="text-[11.5px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          <strong>Una vez aprobada, </strong>se registra en la <strong> Oficina</strong>
+          <span className="font-extrabold">Una vez aprobada, </span>se registra en la <span className="font-extrabold"> Oficina</span>
         </p>
            <p className="   text-[11.5px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-         <strong>de Calidad </strong>para asegurar <strong>transparencia y</strong>
+         <span className="font-extrabold">de Calidad </span>para asegurar <span className="font-extrabold">transparencia y</span>
         </p>
          <p className="   text-[11.5px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-         <strong>cuidado de los pacientes.</strong>
+         <span className="font-extrabold">cuidado de los pacientes.</span>
         </p>
 
         </div>       
@@ -108,7 +108,7 @@ const Responsabilidad = () => {
     </div>
 
   </div>
-      <div className="mt-15 xl:mt-30">
+      <div className="mt-25 xl:mt-30">
 
   </div>
 </div>
