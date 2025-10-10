@@ -242,7 +242,7 @@ export default function Home() {
   </div>
 </main>
 
-      {/* Botón back-to-top */}
+{/* Botón back-to-top */}
 {visible && (
   <button
     onClick={() =>
@@ -250,12 +250,13 @@ export default function Home() {
     }
     className="
       fixed
-      bottom-6 right-6
+      bottom-4 right-4       /* posición móvil */
+      md:bottom-6 md:right-10 /* posición tablet/desktop */
       z-[9999]
       bg-white
       text-[#105afb]
       rounded-full
-      p-4 md:p-5
+      p-3 md:p-4.5 lg:p-6       
       shadow-2xl
       hover:bg-gray-800
       hover:text-white
@@ -270,7 +271,7 @@ export default function Home() {
       viewBox="0 0 24 24"
       strokeWidth={2.5}
       stroke="currentColor"
-      className="w-6 h-6 md:w-7 md:h-7"
+      className="w-5 h-5 md:w-6 md:h-7 lg:w-7 lg:h-8" /* tamaño responsive del icono */
     >
       <path
         strokeLinecap="round"
@@ -280,6 +281,7 @@ export default function Home() {
     </svg>
   </button>
 )}
+
 
 
 </>
