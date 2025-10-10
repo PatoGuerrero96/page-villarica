@@ -250,13 +250,14 @@ export default function Home() {
     }
     className="
       fixed
-      bottom-4 right-4       /* posición móvil */
-      md:bottom-6 md:right-10 /* posición tablet/desktop */
+      bottom-6 right-2      /* posición móvil */
+      md:bottom-6 md:right-2 /* posición tablet/*/
+      lg:bottom-6 lg:right-10 /* posición tablet/*/
       z-[9999]
       bg-white
       text-[#105afb]
       rounded-full
-      p-3 md:p-4.5 lg:p-6       
+      p-3 md:p-4 lg:p-6       
       shadow-2xl
       hover:bg-gray-800
       hover:text-white
