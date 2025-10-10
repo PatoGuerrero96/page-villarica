@@ -7,14 +7,14 @@ const AccidenteFluidos = () => {
   <svg
   className="
     absolute 
-     top-38 right-5
+     top-40 right-5
      md:top-85 md:right-8
     lg:top-91 lg:right-10
     xl:top-130 xl:right-30
-    w-8 h-8
+    w-6 h-6
      md:w-16 md:h-16
       lg:w-17 lg:h-17
-       xl:w-30 xl:h-30
+       xl:w-26 xl:h-26
   "
   viewBox="0 0 37.22 37.22"
   xmlns="http://www.w3.org/2000/svg"
@@ -92,10 +92,10 @@ const AccidenteFluidos = () => {
   </text>
 </svg>
 
-        <p className="text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+        <p className="text-xxs-320 text-[13.5px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
           <span className="font-extrabold">Lava de inmediato</span> con agua y jabón sin
         </p>
-         <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
+         <p className="text-xxs-320 text-[13.5px]  sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
            frotar la herida.
         </p>
         </div>
@@ -104,7 +104,7 @@ const AccidenteFluidos = () => {
           <svg
   className="
     absolute
-    top-24 -left-16
+    top-25 -left-16
     md:top-62 md:-left-27
     lg:top-66 lg:-left-32
     xl:top-95 xl:-left-40
@@ -132,10 +132,10 @@ const AccidenteFluidos = () => {
     02
   </text>
 </svg>
-        <p className="text-[11px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
+        <p className="text-xxs-320 text-[13.5px]  sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
         Si hubo contacto en <span className="font-extrabold"> ojos o boca, enjuaga</span>
         </p>
-         <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
+         <p className="text-xxs-320 text-[13.5px]  sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
            con <span className="font-extrabold">suero o agua potable.</span>
         </p>
 
@@ -146,7 +146,7 @@ const AccidenteFluidos = () => {
           <svg
   className="
     absolute
-    top-35 -left-16
+    top-38 -left-16
     md:top-85 md:-left-27
     lg:top-91 lg:-left-32
    xl:top-130 xl:-left-40
@@ -174,7 +174,7 @@ const AccidenteFluidos = () => {
     03
   </text>
 </svg>
-        <p className="text-[11px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
+        <p className="text-xxs-320 text-[13.5px]  sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
           Si la ropa se <span className="font-extrabold">contamina, retírala y dúchate</span>
         </p>
 
@@ -185,7 +185,7 @@ const AccidenteFluidos = () => {
           <svg
   className="
     absolute
-    top-46 -left-16
+    top-50 -left-16
     md:top-106 md:-left-27
     lg:top-114 lg:-left-32
    xl:top-163 xl:-left-40
@@ -214,10 +214,10 @@ const AccidenteFluidos = () => {
   </text>
 </svg>
 
-        <p className="text-[11px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
+        <p className="text-xxs-320 text-[13.5px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
         <span className="font-extrabold">Informa a tu jefatura</span> y <span className="font-extrabold">acude a urgencias </span>
         </p>
-         <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
+         <p className="text-xxs-320 text-[13.5px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
           para recibir atención.
         </p>
 

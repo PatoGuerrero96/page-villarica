@@ -65,7 +65,31 @@
     
   }
 }
+@layer utilities {
+  .text-xxs {
+    font-size: 11px;
+  }
+    .text-xxxs {
+    font-size: 10px;
+  }
+    .text-mxs {
+    font-size: 14px;
+  }
 
+}
+
+@media (max-width: 320px) {
+  .text-xxs-320 {
+    font-size: 11px;
+  }
+    .text-xxxs-320 {
+    font-size: 9.9px;
+  }
+
+    .text-mxs-320 {
+    font-size: 13.5px;
+  }
+}
 body {
   background: var(--background);
   color: var(--foreground);

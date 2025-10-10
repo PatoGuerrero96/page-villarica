@@ -14,15 +14,15 @@ const Etica = () => {
 
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-0 ">
+        <div className="ml-8.5 md:ml-10 lg:ml-0 xl:ml-0 ">
             {/* numero 1 */}
           <svg
   className="
     absolute
-    top-19 -left-16
+    top-7 -left-16
     md:top-38 md:-left-27
     lg:top-46 lg:-left-32
-    xl:top-68 xl:-left-40
+    xl:top-42 xl:-left-40
     w-28 h-28
     md:w-50 md:h-50
     lg:w-60 lg:h-60
@@ -48,19 +48,19 @@ const Etica = () => {
   </text>
 </svg>
 
-        <p className=" leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+        <p className="  text-xxs-320 text-[13.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
           <span className="font-extrabold">Toda solicitud</span> debe pasar por el <span className="font-extrabold">Comité de</span>
         </p>
-          <p className="leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+          <p className=" text-xxs-320 text-[13.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
           <span className="font-extrabold">Ética Asistencial. Accede con el formulario o </span>
         </p>
-          <p className="leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+          <p className=" text-xxs-320 text-[13px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
          <span className="font-extrabold">QR,</span> y registra tu investigación en la <span className="font-extrabold">Oficina de</span>
         </p>
-          <p className="leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+          <p className=" text-xxs-320 text-[13.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
          <span className="font-extrabold">Calidad para asegurar transparencia y</span>
         </p>
-          <p className="leading-tight text-[11px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+          <p className=" text-xxs-320 text-[13.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
          <span className="font-extrabold">respeto a los pacientes.</span>
         </p>
 

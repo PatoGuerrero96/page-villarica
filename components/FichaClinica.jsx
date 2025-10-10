@@ -10,7 +10,7 @@ const FichaClinica = () => {
      top-5 left-4
      md:top-10 md:left-15
     lg:top-10 lg:left-30
-    xl:top-15 xl:left-90
+    xl:top-15 xl:left-[15%]
     w-14 h-14
     md:w-25 md:h-25
     lg:w-30 lg:h-30
@@ -58,7 +58,7 @@ const FichaClinica = () => {
     </h2>
 
     <div className="w-full flex flex-col justify-center h-full">
-      <p className=" text-[15px] sm:text-md md:text-4xl lg:text-[40px] xl:text-6xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10 font-extrabold">
+      <p className="text-xxs-320 text-sm sm:text-md md:text-3xl lg:text-[40px] xl:text-6xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10 font-extrabold">
         La ficha clínica es <span className="font-black">única y confidencia</span>
       </p>
 
@@ -68,8 +68,8 @@ const FichaClinica = () => {
           <svg
   className="
     absolute
-    top-27 -left-16
-    md:top-53 md:-left-27
+    top-23 -left-16
+    md:top-48 md:-left-27
     lg:top-58 lg:-left-32
     xl:top-80 xl:-left-40
     w-28 h-28
@@ -97,10 +97,10 @@ const FichaClinica = () => {
   </text>
 </svg>
 
-        <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
+        <p className="text-xxs-320 text-sm sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           Está disponible en papel o en formato        
         </p>
-   <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl text-left ">
+   <p className="text-xxs-320 text-sm sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl text-left ">
   electrónico.{" "}
   <a
     href="https://login.ssasur.cl"
@@ -118,8 +118,8 @@ const FichaClinica = () => {
           <svg
   className="
     absolute
-    top-41 -left-16
-    md:top-80 md:-left-27
+    top-37 -left-16
+    md:top-76 md:-left-27
     lg:top-87 lg:-left-32
     xl:top-120 xl:-left-40
     w-28 h-28
@@ -147,10 +147,10 @@ const FichaClinica = () => {
   </text>
 </svg>
 
-        <p className="text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
+        <p className="  text-xxs-320 text-sm sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           Solo accedes con tu <span className="font-extrabold" >clave personal</span> 
         </p>
-           <p className="  font-bold  text-[13px] sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left font-extrabold">
+           <p className="  font-bold  text-xxs-320 text-sm sm:text-sm md:text-3xl lg:text-4xl xl:text-5xl  text-left font-extrabold">
          vinculada al RUN del paciente.
         </p>
 
@@ -161,7 +161,7 @@ const FichaClinica = () => {
     </div>
 
   </div>
-      <div className="mt-40">
+      <div className=" mt-30 xl:mt-40">
 
   </div>
 </div>

@@ -93,19 +93,19 @@ const Esteriliza = () => {
   </text>
 </svg>
 
-        <p className=" leading-tight text-[15px] sm:text-sm md:text-[40px] lg:text-5xl xl:text-7xl text-left mb-2 md:mb-4 xl:mb-8 font-bold">
+        <p className="  text-md sm:text-sm md:text-[40px] lg:text-5xl xl:text-7xl text-left mb-2 md:mb-4 xl:mb-8 font-bold">
           <span className="font-black">Esteriliza siempre</span> el material
         </p>
-          <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+          <p className="text-xxs-320 text-sm sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
          Los instrumentos <span className="font-extrabold">se lavan y desinfectan</span>
         </p>
-          <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+          <p className="text-xxs-320 text-sm sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
          en la central de esterilización para 
         </p>
-          <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+          <p className="text-xxs-320 text-sm sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
          <span className="font-extrabold">garantizar seguridad</span> en cada
         </p>
-          <p className="leading-tight text-[12.5px] sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
+          <p className="text-xxs-320 text-sm sm:text-sm md:text-[25px] lg:text-3xl xl:text-5xl  text-left">
          procedimiento.
         </p>
 

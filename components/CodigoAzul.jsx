@@ -76,7 +76,7 @@ className="
 
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-white flex flex-col w-full">
-    <h2 className="text-xl sm:text-xl md:text-5xl lg:text-5xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-4 lg:py-5 xl:py-5 inline-block mx-auto">
+    <h2 className=" text-xl sm:text-xl md:text-5xl lg:text-5xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-4 lg:py-5 xl:py-5 inline-block mx-auto">
       Código Azul
     </h2>
 
@@ -120,10 +120,10 @@ className="
   </text>
 </svg>
 
-        <p className="text-[12px] sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl  text-left">
+        <p className=" text-xxs-320 text-sm sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           Actívalo si la persona <span className="font-extrabold">no se mueve, no </span>          
         </p>
-        <p className="text-xs md:text-3xl lg:text-4xl xl:text-5xl text-left font-extrabold">
+        <p className="text-xxs-320 text-sm md:text-3xl lg:text-4xl xl:text-5xl text-left font-extrabold">
                responde o no respira.         
         </p>
         </div>
@@ -161,10 +161,10 @@ className="
   </text>
 </svg>
 
-        <p className="text-[12px] sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl  text-left">
+        <p className="text-xxs-320 text-sm sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl  text-left">
           <strong className="font-extrabold">Llama o avisa en voz alta </strong>indicando: 
         </p>
-           <p className=" italic font-extrabold  text-[10px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+           <p className="text-xxs-320 italic font-extrabold  text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           “Código Azul – niño o adulto – lugar del hospital”
         </p>
 
@@ -202,10 +202,10 @@ className="
     03
   </text>
 </svg>
-        <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left">
+        <p className="text-xxs-320 text-[13px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left">
           Mientras llega el equipo, <strong className="font-extrabold">acompaña y ayuda</strong>
         </p>
-        <p className="text-[12px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left">
+        <p className="text-xxs-320 text-sm sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left">
          <strong className="font-extrabold">al paciente</strong> si sabes cómo hacerlo.
         </p>
 

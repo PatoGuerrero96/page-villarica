@@ -140,13 +140,13 @@ const PlanEmergencia = () => {
         <p className=" text-sm sm:text-md md:text-3xl lg:text-4xl xl:text-6xl  text-left mb-1 xl:mb-3 font-extrabold  ">
         EN CASO DE <span className="font-black">INCENDIO</span>     
         </p>
-        <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+        <p className="text-xxs-320 text-[13px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
           Usa extintores si el fuego es pequeño, si se 
         </p>
-         <p className="text-[10px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+         <p className="text-xxxs-320 text-[12.5px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
            propaga, avisa de inmediato y evacúa a zona 
         </p>
-          <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+          <p className="text-xxs-320 text-[13px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
            segura.
         </p>
 
@@ -189,23 +189,23 @@ const PlanEmergencia = () => {
         <p className="text-sm sm:text-md md:text-3xl lg:text-4xl xl:text-6xl  text-left mb-1 xl:mb-3 font-extrabold ">
         DURANTE UN<span className="font-black"> SISMO</span>     
         </p>
-        <p className="text-[10px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+        <p className="text-xxxs-320 text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
         Si es <span className="font-extrabold">leve</span>, mantén la <span className="font-extrabold">calma y reporta daños</span>. Si es
         </p>
-         <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+         <p className="text-xxs-320 text-[13px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
            <span className="font-extrabold">fuerte</span >, protégete bajo <span className="font-extrabold">estructuras firmes</span> y
         </p>
-          <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+          <p className="text-xxs-320 text-[13px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
           sigue las<span className="font-extrabold"> instrucciones de emergencia</span>.
         </p>
 
         </div>       
-        <div className="ml-9 md:ml-20 lg:ml-10 xl:ml-25  mt-10 md:mt-15 lg:mt-20 xl:mt-40">
+        <div className="ml-9 md:ml-20 lg:ml-10 xl:ml-25  mt-6 md:mt-15 lg:mt-20 xl:mt-40">
                                      {/* numero 3 */}
           <svg
   className="
     absolute
-    top-68 -left-16
+    top-70 -left-16
     md:top-140 md:-left-27
     lg:top-158 lg:-left-32
    xl:top-252 xl:-left-40
@@ -236,13 +236,13 @@ const PlanEmergencia = () => {
         <p className="text-sm sm:text-md md:text-3xl lg:text-4xl xl:text-6xl  text-left mb-1 xl:mb-3 font-extrabold ">
         ANTE <span className="font-black">INUNDACIÓN</span> O <span className="font-black">FUGA DE GAS</span>   
         </p>
-        <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+        <p className="text-xxs-320 text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
           <span className="font-extrabold">Da aviso a bomberos</span>y operaciones. Si es
         </p>
-         <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+         <p className="text-xxs-320 text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
            posible, <span className="font-extrabold">corta el suministro y alerta a los</span>
         </p>
-          <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+          <p className="text-xxs-320 text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
           <span className="font-extrabold">demás</span>.
         </p>
 
@@ -252,7 +252,7 @@ const PlanEmergencia = () => {
           <svg
   className="
     absolute
-    top-90 -left-16
+    top-92 -left-16
     md:top-180 md:-left-27
     lg:top-208 lg:-left-32
    xl:top-320 xl:-left-40
@@ -283,13 +283,13 @@ const PlanEmergencia = () => {
         <p className="text-sm sm:text-md md:text-3xl lg:text-4xl xl:text-6xl  text-left mb-1 xl:mb-3 font-extrabold ">
         SI HAY <span className="font-black">ERUPCIÓN VOLCÁNICA</span>     
         </p>
-        <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+        <p className="text-xxs-320 text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
         Sigue simpre las <span className="font-extrabold">indicaciones de jefaturas y </span>
         </p>
-         <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+         <p className="text-xxs-320 text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
           <span className="font-extrabold">coordinadores</span>. Mantén la <span className="font-extrabold">calma y coopera</span>
         </p>
-          <p className="text-[11px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+          <p className="text-xxs-320 text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
            con tu equipo.
         </p>
 

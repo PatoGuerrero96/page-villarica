@@ -1,4 +1,5 @@
 "use client";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import CodigoAzul from "../components/CodigoAzul"; 
@@ -13,7 +14,16 @@ import Etica from "@/components/Etica";
 import Esteriliza from "@/components/Esteriliza";
 import Identificacion from "@/components/Identificacion";
 export default function Home() {
+    const [visible, setVisible] = useState(false);
+      useEffect(() => {
+    const handleScroll = () => {
+      setVisible(window.scrollY > 200); 
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
+      <>
 <main>
 
 <div className="relative w-full">
@@ -76,7 +86,7 @@ export default function Home() {
     xl:top-25 xl:left-25
     text-white 
     text-sm md:text-2xl lg:text-4xl xl:text-[47px]
-     font-light
+     font-normal
     [writing-mode:vertical-rl] rotate-180
     
   "
@@ -232,7 +242,47 @@ export default function Home() {
   </div>
 </main>
 
+      {/* Botón back-to-top */}
+{visible && (
+  <button
+    onClick={() =>
+      window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+    className="
+      fixed
+      bottom-6 right-6
+      z-[9999]
+      bg-white
+      text-[#105afb]
+      rounded-full
+      p-4 md:p-5
+      shadow-2xl
+      hover:bg-gray-800
+      hover:text-white
+      transition
+      flex items-center justify-center
+    "
+    aria-label="Subir al inicio"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={2.5}
+      stroke="currentColor"
+      className="w-6 h-6 md:w-7 md:h-7"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M5 15l7-7 7 7"
+      />
+    </svg>
+  </button>
+)}
 
+
+</>
 
   );
 }

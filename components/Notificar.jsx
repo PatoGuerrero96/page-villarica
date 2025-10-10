@@ -35,7 +35,7 @@ const Notificar = () => {
 
 
       <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-7 md:ml-10 lg:ml-0 xl:ml-0">
+        <div className="ml-9 md:ml-10 lg:ml-0 xl:ml-0">
             {/* numero 1 */}
           <svg
   className="
@@ -69,24 +69,24 @@ const Notificar = () => {
   </text>
 </svg>
 
-        <p className="text-[12px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+        <p className="text-xxs-320 text-[13px]  sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           Cualquier funcionario puede <span className="font-extrabold">informar</span>  
         </p>
-          <p className="text-[11.5px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+          <p className="text-xxs-320 text-[13px]  sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           <span className="font-extrabold">incidentes o eventos</span> adversos a través del 
         </p>
-          <p className="text-[12px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+          <p className="text-xxs-320 text-[13px]  sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           <span className="font-extrabold">link o QR.</span> 
         </p>
 
 
         </div>
-         <div className="ml-7 md:ml-10 lg:ml-0 xl:ml-0">
+         <div className="ml-8.5 md:ml-10 lg:ml-0 xl:ml-0">
                    {/* numero 2 */}
           <svg
   className="
     absolute
-    top-30 -left-16
+    top-31 -left-16
     md:top-65 md:-left-27
     lg:top-74 lg:-left-32
     xl:top-90 xl:-left-40
@@ -115,10 +115,10 @@ const Notificar = () => {
   </text>
 </svg>
 
-        <p className="text-[11px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+        <p className="text-xxxs-320 text-[13px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           La notificación<span className="font-extrabold"> llega a la Oficina de Calidad</span> y
         </p>
-           <p className="   text-[11.5px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+           <p className=" text-xxs-320 text-[13px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
          <span className="font-extrabold">puede hacerse de forma anónima.</span>
         </p>
 
@@ -144,7 +144,7 @@ const Notificar = () => {
 
   {/* Enlace */}
   <div className="text-left">
-    <p className="text-xs md:text-xl lg:text-3xl xl:text-5xl font-medium leading-tight">
+    <p className="text-xxs-320 text-sm  md:text-xl lg:text-3xl xl:text-5xl font-medium leading-tight">
       <a
         href="https://redcap.araucaniasur.cl/surveys/?s=WRY44F8D4T"
         target="_blank"
@@ -154,7 +154,7 @@ const Notificar = () => {
         https://redcap.
       </a>
     </p>
-    <p className="text-xs md:text-xl lg:text-3xl xl:text-5xl font-medium leading-tight">
+    <p className="text-xxs-320 text-[13px]  md:text-xl lg:text-3xl xl:text-5xl font-medium leading-tight">
       <a
         href="https://redcap.araucaniasur.cl/surveys/?s=WRY44F8D4T"
         target="_blank"
@@ -164,7 +164,7 @@ const Notificar = () => {
         araucaniasur.cl/
       </a>
     </p>
-    <p className="text-xs md:text-xl lg:text-3xl xl:text-5xl font-medium leading-tight">
+    <p className="text-xxs-320 text-[13px]  md:text-xl lg:text-3xl xl:text-5xl font-medium leading-tight">
       <a
         href="https://redcap.araucaniasur.cl/surveys/?s=WRY44F8D4T"
         target="_blank"
