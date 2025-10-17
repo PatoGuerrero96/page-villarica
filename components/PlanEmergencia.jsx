@@ -316,7 +316,7 @@ const PlanEmergencia = () => {
           agua y coordina la reparación.
         </p>
           <p className=" mt-2 md:mt-4 lg:mt-6  text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[44px] text-left ">
-         <span className="font-black">Evacuar:</span>El área afectada y esperar 
+         <span className="font-black">Evacuar: </span>El área afectada y esperar 
         </p>
           <p className="text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[45px] text-left ">
         autorización para volver.

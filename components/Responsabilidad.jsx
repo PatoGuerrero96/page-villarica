@@ -41,7 +41,7 @@ const Responsabilidad = () => {
 
 
         <p className="text-xxs-320 text-[12.3px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          <span className="font-black">Mantén la calma: </span> e identifica si la   contaminación
+          <span className="font-black">Mantén la calma</span> e identifica si la   contaminación
         </p>
           <p className="text-xxs-320 text-[13px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
  es  en superficie o en  persona.
