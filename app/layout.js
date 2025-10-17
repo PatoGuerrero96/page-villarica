@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "HVR landing page",
+  title: "Calidad HVR ",
   description: "HVR landing page",
 };
 

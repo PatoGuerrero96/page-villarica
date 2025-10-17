@@ -140,20 +140,20 @@ const PlanEmergencia = () => {
         <span className="font-black">EN CASO DE  INCENDIO</span>     
         </p>
         <p className="text-xxs-320 text-[14px] sm:text-xs md:text-2xl lg:text-2xl xl:text-[43px] text-left ">
-         <span className="font-bold">Fuego inicial:</span> Usa extintores o una red
+         <span className="font-black">Fuego inicial:</span> Usa extintores o una red
         </p>
           <p className="text-xxs-320 text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
             húmeda para apagarlo.
         </p>
           <p className=" mt-2 md:mt-4 lg:mt-6 text-xxs-320  text-[13.5px] sm:text-xs md:text-[22px] lg:text-2xl xl:text-[43px] text-left ">
-         <span className="font-bold">Incendio propagado:</span> Llama a los bomberos 
+         <span className="font-black">Incendio propagado:</span> Llama a los bomberos 
         </p>
           <p className="text-xxs-320  text-[13.5px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
         <strong className="font-black">(132)</strong> y avisa a quienes estén cerca.
         </p>
 
           <p className=" mt-2 md:mt-4 lg:mt-6 text-xxs-320  text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[41px] text-left ">
-         <span className="font-bold">Riesgo inminente:</span> Evacúa hacia el frontis 
+         <span className="font-black">Riesgo inminente:</span> Evacúa hacia el frontis 
         </p>
           <p className="text-xxs-320  text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[41px] text-left ">
           del hospital y sigue las instrucciones
@@ -202,14 +202,14 @@ const PlanEmergencia = () => {
         <span className="font-black"> DURANTE UN SISMO</span>     
         </p>
           <p className=" mt-2 md:mt-4 lg:mt-6 text-xxs-320  text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[40px] text-left ">
-         <span className="font-bold">Sismo leve:</span> Sigue trabajando y avisa solo si 
+         <span className="font-black">Sismo leve:</span> Sigue trabajando y avisa solo si 
         </p>
        <p className="  md:mt-4 lg:mt-6 text-xxs-320  text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[40px] text-left ">
        hay daños.
         </p>
         
           <p className=" mt-2 md:mt-4 lg:mt-6 text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[41px] text-left ">
-         <span className="font-bold">Sismo fuerte:</span> Refúgiate bajo estructuras 
+         <span className="font-black">Sismo fuerte:</span> Refúgiate bajo estructuras 
         </p>
           <p className="text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[41px] text-left ">
          firmes y aléjate de objetos que puedan 
@@ -304,19 +304,19 @@ const PlanEmergencia = () => {
         <span className="font-black">INUNDACIÓN</span>     
         </p>
         <p className=" mt-2 md:mt-4 lg:mt-6 text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
-         <span className="font-bold">Avisar de inmediato:</span> Al departamento de
+         <span className="font-black">Avisar de inmediato:</span> Al departamento de
         </p>
           <p className="text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
           operaciones.
         </p>
           <p className=" mt-2 md:mt-4 lg:mt-6  text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[46px] text-left ">
-         <span className="font-bold">Departamento de operaciones:</span> Corta el 
+         <span className="font-black">Departamento de operaciones:</span> Corta el 
         </p>
           <p className="text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
           agua y coordina la reparación.
         </p>
           <p className=" mt-2 md:mt-4 lg:mt-6  text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[44px] text-left ">
-         <span className="font-bold">Evacuar:</span>El área afectada y esperar 
+         <span className="font-black">Evacuar:</span>El área afectada y esperar 
         </p>
           <p className="text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[45px] text-left ">
         autorización para volver.
@@ -361,23 +361,23 @@ const PlanEmergencia = () => {
         <span className="font-black">FUGA DE GAS</span>     
         </p>
           <p className=" mt-2 md:mt-4 lg:mt-6  text-xxs-320  text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[41px] text-left ">
-         <span className="font-bold">Avisar de inmediato:</span> Departamento de 
+         <span className="font-black">Avisar de inmediato:</span> Departamento de 
         </p>
           <p className="text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[45px] text-left ">
          Operaciones y llamar a bomberos <span className="font-bold">(132).</span>
         </p>
 
           <p className=" mt-2 md:mt-4 lg:mt-6  text-xxs-320  text-[13.5px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
-         <span className="font-bold">Evacuar:</span> Hacia una zona segura y ventilada
+         <span className="font-black">Evacuar:</span> Hacia una zona segura y ventilada
         </p>
           <p className=" mt-2 md:mt-4 lg:mt-6  text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[45px] text-left ">
-         <span className="font-bold">Operaciones debe cortar el gas:</span> si no hay
+         <span className="font-black">Operaciones debe cortar el gas:</span> si no hay
         </p>
          <p className=" md:mt-4 lg:mt-6  text-xxs-320  text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[45px] text-left ">
           riesgo.
         </p>
                   <p className=" mt-2 md:mt-4 lg:mt-6 text-xxs-320  text-[13.5px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[42px] text-left ">
-         <span className="font-bold">Mantener distancia:</span> No volver hasta que se 
+         <span className="font-black">Mantener distancia:</span> No volver hasta que se 
         </p>
           <p className="text-xxs-320  text-[13.5px] sm:text-xs md:text-2xl lg:text-3xl xl:text-[45px] text-left ">
         controle la situación.

@@ -144,7 +144,7 @@ const Identificacion = () => {
          Usa <span className="font-bold">1 Nombre, 2 Apellidos, Nombre social</span>  
         </p>
          <p className="text-xxs-320 text-[14px]  sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
-        entre <span className="font-bold">paréntesis () y RUN;</span> en adultos y     
+        <span className="font-bold">entre paréntesis () y RUN;</span> en adultos y     
         </p>
         <p className="text-xxs-320 text-[14px]  sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
          pediátricos. Esto evita confusiones. 
@@ -239,7 +239,7 @@ const Identificacion = () => {
          Cuando la persona llega sin identificación,
         </p>
         <p className="text-xxs-320 text-[14px] text-sm sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
-        <span className="font-extrabold">Nombre “NN” y RUN provisorio, Nº de ficha</span> 
+        <span className="font-extrabold">Nombre “NN” y RUN provisorio, Nº de ficha.</span> 
         </p>
 
         </div>
@@ -284,7 +284,7 @@ const Identificacion = () => {
          Usa <span className="font-bold">1 Nombre, 2 Apellidos, Nº de ficha,</span>  
         </p>
          <p className="text-xxs-320 text-[14px]sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
-           pasaporte <span className="font-bold">o RUN provisorio;</span> si no trae    
+           <span className="font-bold">pasaporte  o RUN provisorio;</span> si no trae    
         </p>
           <p className="text-xxs-320 text-[14px] sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
         pasaporte se  considera el rut provisorio.   

@@ -93,7 +93,7 @@ const AccidenteFluidos = () => {
 </svg>
 
         <p className="text-mxs-320 text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[43px] text-left ">
-          <span className="font-extrabold">Lavar con agua y jabón,</span> sin frotar ni usar químicos.
+          <span className="font-black">Lavar con agua y jabón,</span> sin frotar ni usar químicos.
         </p>
         </div>
          <div className="ml-9 md:ml-23 lg:ml-10 xl:ml-25">
@@ -130,7 +130,7 @@ const AccidenteFluidos = () => {
   </text>
 </svg>
         <p className="text-xxs-320 text-[13.9px]  sm:text-xs md:text-[22px] lg:text-3xl xl:text-5xl text-left ">
-        <span className="font-extrabold">Ojos:</span> Enjuagar con suero por 30 segundos.
+        <span className="font-black">Ojos:</span> Enjuagar con suero por 30 segundos.
         </p>
 
 
@@ -171,7 +171,7 @@ const AccidenteFluidos = () => {
   </text>
 </svg>
         <p className="text-xxs-320 text-[14px]  sm:text-xs md:text-[22px] lg:text-3xl xl:text-5xl text-left ">
-        <span className="font-extrabold">Boca:</span> Enjuagar varias veces con agua.
+        <span className="font-black">Boca:</span> Enjuagar varias veces con agua.
         </p>
 
 
@@ -212,7 +212,7 @@ const AccidenteFluidos = () => {
 </svg>
 
         <p className="text-xxs-320 text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-5xl text-left ">
-        <span className="font-extrabold">Ropa contaminada:</span> Retirar y ducharse si
+        <span className="font-black">Ropa contaminada:</span> Retirar y ducharse si
         </p>
          <p className="text-xxs-320 text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-5xl text-left ">
           es necesario.
@@ -255,7 +255,7 @@ const AccidenteFluidos = () => {
 </svg>
 
         <p className="text-xxs-320 text-[12.8px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[43px] text-left ">
-        <span className="font-extrabold">Avisar a jefatura para seguir el procedimiento.</span>
+        <span className="font-black">Avisar a jefatura para seguir el procedimiento.</span>
         </p>
 
 
