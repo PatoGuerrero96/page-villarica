@@ -7,10 +7,10 @@ const Identificacion = () => {
 <svg
   className="
     absolute 
-    top-40 -right-10
-    md:top-65 md:-right-7
-    lg:top-90 lg:-right-20
-    xl:top-120 xl:-right-10
+    top-[30%] -right-15
+    md:top-[32%] md:-right-[6%]
+    lg:top-[37%] lg:-right-20
+     xl:top-[37%] xl:-right-10
     w-30 h-30
     md:w-40 md:h-60
     lg:w-60 lg:h-60
@@ -28,10 +28,10 @@ const Identificacion = () => {
 <svg
   className="
     absolute 
-    top-73 -right-10
-    md:top-130 md:-right-15
-    lg:top-155 lg:-right-12
-    xl:top-220 xl:-right-10
+    top-[54%] -right-10
+    md:top-[58%] md:-right-15
+    lg:top-[58%] lg:-right-12
+    xl:top-[60%] xl:-right-10
     w-20 h-15
     md:w-35 md:h-35
     lg:w-30 lg:h-30
@@ -49,14 +49,14 @@ const Identificacion = () => {
   <svg
   className="
     absolute 
-    top-46 right-60
-    md:top-77 md:right-135
-    lg:top-100 lg:right-180
-    xl:top-140 xl:left-[20%]
+    top-[44%] right-60
+    md:top-[44%] md:right-135
+    lg:top-[50%] lg:right-180
+    xl:top-[48%] xl:left-[18%]
     w-17 h-17
     md:w-35 md:h-50
     lg:w-38 lg:h-38
-    xl:w-50 xl:h-50
+    xl:w-55 xl:h-55
   "
   viewBox="0 0 37.22 37.22"
   xmlns="http://www.w3.org/2000/svg"
@@ -73,10 +73,10 @@ const Identificacion = () => {
   <svg
   className="
     absolute 
-     top-49 right-45
-     md:top-80 md:right-100
-    lg:top-105 lg:right-140
-    xl:top-146 xl:left-[35%]
+     top-[46%] right-45
+     md:top-[45%] md:right-100
+    lg:top-[51%] lg:right-140
+    xl:top-[50%] xl:left-[35%]
     w-12 h-12
     md:w-30 md:h-45
     lg:w-28 lg:h-28
@@ -109,13 +109,13 @@ const Identificacion = () => {
           <svg
   className="
     absolute
-    top-20 -left-16
-    md:top-40 md:-left-27
-    lg:top-40 lg:-left-32
-    xl:top-65 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
+    top-18 -left-14
+    md:top-34 md:-left-27
+    lg:top-44 lg:-left-32
+    xl:top-64 xl:-left-40
+    w-25 h-25
+     md:w-48 md:h-48
+    lg:w-56 lg:h-56
     xl:w-75 xl:h-60
     z-40
   "
@@ -129,8 +129,7 @@ const Identificacion = () => {
   <text
     fill="#fff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
     x="34.93"
     y="13.28"
   >
@@ -141,26 +140,29 @@ const Identificacion = () => {
         <p className="text-md sm:text-md md:text-3xl lg:text-4xl xl:text-6xl font-extrabold text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
         <span className="font-black">Identifica siempre</span> al paciente       
         </p>
-        <p className="text-xxs-320 text-sm sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left  ">
-         Usa <span className="font-extrabold">nombre completo y RUN</span>  en adultos y   
+        <p className="text-xxxs-320 text-[14px]  sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left  ">
+         Usa <span className="font-bold">1 Nombre, 2 Apellidos, Nombre social</span>  
         </p>
-         <p className="text-xxs-320 text-sm sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
-         pediátricos. Esto evita confusiones.    
+         <p className="text-xxs-320 text-[14px]  sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
+        entre <span className="font-bold">paréntesis () y RUN;</span> en adultos y     
+        </p>
+        <p className="text-xxs-320 text-[14px]  sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
+         pediátricos. Esto evita confusiones. 
         </p>
 
         </div>
-         <div className="ml-9 md:ml-10 lg:ml-0 xl:ml-0  mt-20 md:mt-35 lg:mt-40 xl:mt-70">
+         <div className="ml-9 md:ml-10 lg:ml-0 xl:ml-0  ">
                    {/* numero 2 */}
           <svg
   className="
     absolute
-    top-59 -left-16
-    md:top-110 md:-left-27
-    lg:top-125 lg:-left-32
-    xl:top-190 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
+    top-44 -left-14
+    md:top-80 md:-left-27
+    lg:top-98 lg:-left-32
+    xl:top-138 xl:-left-40
+    w-25 h-25
+    md:w-48 md:h-48
+    lg:w-56 lg:h-56
     xl:w-75 xl:h-60
     z-40
   "
@@ -174,8 +176,8 @@ const Identificacion = () => {
   <text
     fill="#fff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
+
     x="34.93"
     y="13.28"
   >
@@ -183,32 +185,32 @@ const Identificacion = () => {
   </text>
 </svg>
 
-        <p className="text-mxs-320 text-md sm:text-md md:text-3xl lg:text-4xl xl:text-6xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
+        <p className="text-xxs-320 text-md sm:text-md md:text-3xl lg:text-4xl xl:text-6xl  text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
           <span className="font-black">Recién nacidos,</span> <span className="font-extrabold">identifica la madre </span>
         </p>
-           <p className=" text-xxs-320 text-sm sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          Anota <span className="font-extrabold">nombre y apellidos de la madre,</span> su
+           <p className=" text-xxs-320 text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+          <span className="font-bold">nombre y apellidos de la madre,</span> su RUN,
         </p>
-          <p className="text-xxs-320 text-sm sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          RUN, junto con fecha, hora de nacimiento
+          <p className="text-xxs-320 text-[13px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+           hora y fecha de nacimiento y sexo del bebé.
         </p>
-          <p className="text-xxs-320 text-sm sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          y sexo del bebé.
+          <p className="font-bold text-xxs-320 text-sm sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left mt-2">
+          *Doble brazalete (contralateral)
         </p>
 
         </div>       
-        <div className="ml-9 md:ml-10 lg:ml-0 xl:ml-0 mt-2 md:mt-3 lg:mt-5 xl:mt-10">
+        <div className="ml-9 md:ml-10 lg:ml-0 xl:ml-0 mt-10 md:mt-25 lg:mt-30 xl:mt-60">
                                      {/* numero 3 */}
           <svg
   className="
     absolute
-    top-85 -left-16
-    md:top-158 md:-left-27
-    lg:top-180 lg:-left-32
+    top-82 -left-14
+    md:top-152 md:-left-27
+    lg:top-178 lg:-left-32
    xl:top-270 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
+   w-25 h-25
+     md:w-48 md:h-48
+    lg:w-56 lg:h-56
     xl:w-75 xl:h-60
     z-40
   "
@@ -222,22 +224,70 @@ const Identificacion = () => {
   <text
     fill="#fff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
+
     x="34.93"
     y="13.28"
   >
     03
   </text>
 </svg>
-        <p className="text-mxs-320 text-md sm:text-md md:text-3xl lg:text-3xl xl:text-6xl text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 font-extrabold ">
-          Si no conoces la identidad, <span className="font-black">usa "NN"</span>
+        <p className="text-xxxs-320 text-md sm:text-md md:text-3xl lg:text-3xl xl:text-6xl text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 font-extrabold ">
+           <span className="font-black">Si no conoces la identidad, usa "NN"</span>
         </p>
-        <p className="text-xxs-320 text-sm sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left">
+        <p className="text-xxs-320 text-[14px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left">
          Cuando la persona llega sin identificación,
         </p>
-        <p className="text-xxs-320 text-sm sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
-        <span className="font-extrabold">asigna nombre "NN" y RUN provisorio.</span> 
+        <p className="text-xxs-320 text-[14px] text-sm sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
+        <span className="font-extrabold">Nombre “NN” y RUN provisorio, Nº de ficha</span> 
+        </p>
+
+        </div>
+                <div className="ml-8 md:ml-10 lg:ml-0 xl:ml-0">
+            {/* numero 4 */}
+          <svg
+  className="
+    absolute
+    top-105 -left-14
+    md:top-187 md:-left-27
+    lg:top-216 lg:-left-32
+    xl:top-330 xl:-left-40
+    w-25 h-25
+     md:w-48 md:h-48
+    lg:w-56 lg:h-56
+    xl:w-75 xl:h-60
+    z-40
+    
+  "
+  viewBox="0 0 55.3 19.26"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill="#010101"
+    d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
+  />
+  <text
+    fill="#fff"
+    fontSize="11"
+    fontWeight="800"
+    x="34.93"
+    y="13.28"
+  >
+    04
+  </text>
+</svg>
+
+        <p className="text-sm sm:text-md md:text-3xl lg:text-4xl xl:text-6xl font-extrabold text-left mb-1 md:mb-3 lg:mb-3 xl:mb-7 ">
+        <span className="font-black">Paciente extranjero</span>     
+        </p>
+        <p className="text-xxxs-320 text-[14px] sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left  ">
+         Usa <span className="font-bold">1 Nombre, 2 Apellidos, Nº de ficha,</span>  
+        </p>
+         <p className="text-xxs-320 text-[14px]sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
+           pasaporte <span className="font-bold">o RUN provisorio;</span> si no trae    
+        </p>
+          <p className="text-xxs-320 text-[14px] sm:text-xs md:text-2xl lg:text-4xl xl:text-5xl text-left ">
+        pasaporte se  considera el rut provisorio.   
         </p>
 
         </div>

@@ -19,14 +19,19 @@ const Seccion = () => {
 </span>
 <div className="absolute bottom-2 left-4 md:bottom-10 md:left-8 lg:bottom-10 lg:left-10 xl:bottom-20 xl:left-25 z-20">
   <div className="text-left">
-    <div className="w-[45%] h-[2px] md:h-[6px]  xl:h-[10px] bg-azul mb-1 md:mb-3 w-full rounded-lg"></div>
+    {/* Flecha / Línea arriba */}
+    <div className="w-[110%] h-[2px] md:h-[6px] xl:h-[10px] bg-azul mb-2 md:mb-3 rounded-lg"></div>
 
-    {/* Texto responsivo */}
-    <p className="text-azul text-xxxs-320 text-[10px]  md:text-2xl lg:text-3xl  xl:text-4xl ">
-      acreditación <span className="font-bold">2025</span>
+    {/* Texto */}
+    <p className="text-azul text-xxxs-320 text-[14px] md:text-2xl lg:text-3xl xl:text-4xl leading-tight">
+      acreditación
+    </p>
+    <p className="text-azul text-xxxs-320 text-[14px] md:text-2xl lg:text-3xl xl:text-4xl font-black leading-tight">
+      2025–2026
     </p>
   </div>
 </div>
+
   {/* Fondo texturizado */}
 <Image
   src="/bottom.png"

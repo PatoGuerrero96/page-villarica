@@ -3,102 +3,102 @@ import React from "react";
 const Responsabilidad = () => {
   return (
 <div className="relative w-full h-full overflow-hidden bg-amarillo z-10">
-
+  {/* Círculo azul parcialmente visible */}
+<svg
+  className="
+    absolute 
+    top-[65%] -left-[2%]
+    md:top-[65%] md:-left-[2%]
+    lg:top-[70%] lg:-left-[0%]
+    xl:top-[70%] xl:-left-[4%]
+    w-10 h-15
+    md:w-20 md:h-36
+    lg:w-18 lg:h-36
+    xl:w-50 xl:h-50
+    z-30
+  "
+  viewBox="0 0 21.25 42.5"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill="#105afb"
+    d="M21.25,21.25c0,11.74-9.52,21.25-21.25,21.25V0c11.73,0,21.25,9.52,21.25,21.25Z"
+  />
+</svg>
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-black flex flex-col w-full">
-    <h2 className="text-sm sm:text-lg md:text-4xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-black rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-4 lg:py-5 xl:py-5 inline-block mx-auto">
-      INVESTIGAR CON RESPONSABILIDAD
-    </h2>
+<h2 className="text-xxs-320 text-sm sm:text-lg md:text-4xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-black rounded-full px-6 md:px-8 lg:px-10 xl:px-12 py-2 md:py-4 lg:py-5 xl:py-6 inline-block mx-auto leading-tight">
+  ACCIDENTE CON MEDICAMENTOS<br />
+  ANTINEOPLÁSICOS
+</h2>
+
 
     <div className="w-full flex flex-col justify-center h-full mt-8 md:mt-15 lg:mt-20 xl:mt-25">
 
 
-      <div className="flex flex-col max-w-8xl  mx-auto gap-4 md:gap-8 lg:gap-10 xl:gap-15    ">
-        <div className="ml-9 md:ml-10 lg:ml-0 xl:ml-0">
-            {/* numero 1 */}
-          <svg
-  className="
-    absolute
-    top-15 -left-16
-    md:top-38 md:-left-27
-    lg:top-45 lg:-left-32
-    xl:top-63 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
-    xl:w-75 xl:h-60
-    z-40
-  "
-  viewBox="0 0 55.3 19.26"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    fill="#00000"
-    d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
-  />
-  <text
-    fill="#fff"
-    fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
-    x="34.93"
-    y="13.28"
-  >
-    01
-  </text>
-</svg>
+      <div className="flex flex-col max-w-8xl  mx-auto gap-2 md:gap-5 lg:gap-6 xl:gap-8    ">
+        <div className="ml-8 md:ml-14 lg:ml-0 xl:ml-0">
 
-        <p className="text-xxs-320 text-sm sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          Toda investigación en personas debe ser     
+
+        <p className="text-xxs-320 text-[12.3px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+          <span className="font-black">Mantén la calma: </span> e identifica si la   contaminación
         </p>
-          <p className="text-xxs-320 text-sm sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          <span className="font-extrabold">autorizada </span>por la <span className="font-extrabold">Dirección y el Comité Ético.</span>
+          <p className="text-xxs-320 text-[13px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+ es  en superficie o en  persona.
         </p>
+
+
 
 
         </div>
-         <div className="ml-9 md:ml-10 lg:ml-0 xl:ml-0">
-                   {/* numero 2 */}
-          <svg
-  className="
-    absolute
-    top-30 -left-16
-    md:top-65 md:-left-27
-    lg:top-74 lg:-left-32
-    xl:top-110 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
-    xl:w-75 xl:h-60
-    z-40
-  "
-  viewBox="0 0 55.3 19.26"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    fill="#00000"
-    d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
-  />
-  <text
-    fill="#fff"
-    fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
-    x="34.93"
-    y="13.28"
-  >
-    02
-  </text>
-</svg>
+         <div className="ml-8 md:ml-14 lg:ml-0 xl:ml-0">
 
-        <p className="text-xxs-320 text-[13px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-          <span className="font-extrabold">Una vez aprobada, </span>se registra en la <span className="font-extrabold"> Oficina</span>
+
+     <p className="text-xxs-320 text-[13.5px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+          <span className="font-black">Superficie: </span> Delimita el área y usa el kit de 
+
         </p>
-           <p className="   text-xxs-320 text-[13px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-         <span className="font-extrabold">de Calidad </span>para asegurar <span className="font-extrabold">transparencia y</span>
+            <p className="text-xxs-320 text-[14px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+derrames con los EPP.
         </p>
-         <p className="   text-xxs-320 text-[13px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
-         <span className="font-extrabold">cuidado de los pacientes.</span>
+        
+
+        </div>  
+                 <div className="ml-8 md:ml-14 lg:ml-0 xl:ml-0">
+
+
+     <p className="text-xxs-320 text-[14px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+          <span className="font-black">Personas: </span>Lava con abundante agua (10-15 
+
+        </p>
+             <p className="text-xxs-320 text-[14px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+                min), enjuaga ojos con suero (15 min) y 
+        </p>
+                     <p className="text-xxs-320 text-[14px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+               retira ropa de ser necesario
+        </p>
+
+        </div>  
+                                 <div className="ml-8 md:ml-14 lg:ml-0 xl:ml-0">
+
+
+     <p className="text-xxs-320 text-[14px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+          <span className="font-black">Pacientes: </span>
+Avísale al médico tratante.
+        </p>
+
+        </div>      
+                         <div className="ml-8 md:ml-14 lg:ml-0 xl:ml-0">
+
+
+     <p className="text-xxs-320 text-[14px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+          <span className="font-black">Funcionarios: </span>Informa a jefatura, acude a
+        </p>
+             <p className="text-xxs-320 text-[14px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+              Urgencias, completa la DIAT y espera 
+        </p>
+          <p className="text-xxs-320 text-[14px] sm:text-sm md:text-2xl lg:text-3xl xl:text-5xl  text-left">
+              atención.
         </p>
 
         </div>       

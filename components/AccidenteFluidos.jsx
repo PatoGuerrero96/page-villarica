@@ -50,7 +50,7 @@ const AccidenteFluidos = () => {
 </svg>
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-25 text-white flex flex-col w-full">
-    <h2 className="text-sm  md:text-3xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6  border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-4 lg:py-5 xl:py-5 inline-block mx-auto">
+    <h2 className="text-[15px] md:text-3xl lg:text-4xl xl:text-5xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6  border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-4 lg:py-5 xl:py-5 inline-block mx-auto">
       ANTE UN ACCIDENTE DE FLUIDOS
     </h2>
 
@@ -63,13 +63,13 @@ const AccidenteFluidos = () => {
           <svg
   className="
     absolute
-    top-13 -left-16
-    md:top-37 md:-left-27
-    lg:top-38 lg:-left-32
-    xl:top-58 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
+    top-14 -left-14
+    md:top-34 md:-left-27
+    lg:top-34 lg:-left-32
+    xl:top-53 xl:-left-40
+     w-25 h-25
+    md:w-44 md:h-40
+    lg:w-55 lg:h-55
     xl:w-75 xl:h-60
     z-40
   "
@@ -77,14 +77,14 @@ const AccidenteFluidos = () => {
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
-    fill="#FFF200"
+    fill="#000000"
     d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
   />
   <text
-    fill="#000000"
+    fill="#ffffff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
+
     x="34.93"
     y="13.28"
   >
@@ -92,11 +92,8 @@ const AccidenteFluidos = () => {
   </text>
 </svg>
 
-        <p className="text-xxs-320 text-[13.5px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl text-left ">
-          <span className="font-extrabold">Lava de inmediato</span> con agua y jabón sin
-        </p>
-         <p className="text-xxs-320 text-[13.5px]  sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-           frotar la herida.
+        <p className="text-mxs-320 text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[43px] text-left ">
+          <span className="font-extrabold">Lavar con agua y jabón,</span> sin frotar ni usar químicos.
         </p>
         </div>
          <div className="ml-9 md:ml-23 lg:ml-10 xl:ml-25">
@@ -104,13 +101,13 @@ const AccidenteFluidos = () => {
           <svg
   className="
     absolute
-    top-25 -left-16
-    md:top-62 md:-left-27
-    lg:top-66 lg:-left-32
-    xl:top-95 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
+    top-26 -left-14
+    md:top-50 md:-left-27
+    lg:top-54 lg:-left-32
+    xl:top-81 xl:-left-40
+     w-25 h-25
+      md:w-44 md:h-40
+    lg:w-55 lg:h-55
     xl:w-75 xl:h-60
     z-40
   "
@@ -118,26 +115,24 @@ const AccidenteFluidos = () => {
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
-    fill="#FFF200"
+     fill="#000000"
     d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
   />
   <text
-    fill="#000000"
+    fill="#ffffff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
+
     x="34.93"
     y="13.28"
   >
     02
   </text>
 </svg>
-        <p className="text-xxs-320 text-[13.5px]  sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-        Si hubo contacto en <span className="font-extrabold"> ojos o boca, enjuaga</span>
+        <p className="text-xxs-320 text-[13.9px]  sm:text-xs md:text-[22px] lg:text-3xl xl:text-5xl text-left ">
+        <span className="font-extrabold">Ojos:</span> Enjuagar con suero por 30 segundos.
         </p>
-         <p className="text-xxs-320 text-[13.5px]  sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-           con <span className="font-extrabold">suero o agua potable.</span>
-        </p>
+
 
 
         </div>       
@@ -146,13 +141,14 @@ const AccidenteFluidos = () => {
           <svg
   className="
     absolute
-    top-38 -left-16
-    md:top-85 md:-left-27
-    lg:top-91 lg:-left-32
-   xl:top-130 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
+    top-36 -left-14
+    md:top-66 md:-left-27
+    lg:top-74 lg:-left-32
+   xl:top-108 xl:-left-40
+     w-25 h-25
+    md:w-44 md:h-40
+
+    lg:w-55 lg:h-55
     xl:w-75 xl:h-60
     z-40
   "
@@ -160,22 +156,22 @@ const AccidenteFluidos = () => {
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
-    fill="#FFF200"
+    fill="#000000"
     d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
   />
   <text
-    fill="#00000"
+    fill="#ffffff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
+
     x="34.93"
     y="13.28"
   >
     03
   </text>
 </svg>
-        <p className="text-xxs-320 text-[13.5px]  sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-          Si la ropa se <span className="font-extrabold">contamina, retírala y dúchate</span>
+        <p className="text-xxs-320 text-[14px]  sm:text-xs md:text-[22px] lg:text-3xl xl:text-5xl text-left ">
+        <span className="font-extrabold">Boca:</span> Enjuagar varias veces con agua.
         </p>
 
 
@@ -185,13 +181,14 @@ const AccidenteFluidos = () => {
           <svg
   className="
     absolute
-    top-50 -left-16
-    md:top-106 md:-left-27
-    lg:top-114 lg:-left-32
-   xl:top-163 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
+    top-48 -left-14
+    md:top-82 md:-left-27
+    lg:top-94 lg:-left-32
+   xl:top-138 xl:-left-40
+     w-25 h-25
+   md:w-44 md:h-40
+
+    lg:w-55 lg:h-55
     xl:w-75 xl:h-60
     z-40
   "
@@ -199,14 +196,14 @@ const AccidenteFluidos = () => {
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
-    fill="#FFF200"
+    fill="#0000000"
     d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
   />
   <text
-    fill="#00000"
+    fill="#ffffff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
+
     x="34.93"
     y="13.28"
   >
@@ -214,11 +211,96 @@ const AccidenteFluidos = () => {
   </text>
 </svg>
 
-        <p className="text-xxs-320 text-[13.5px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-        <span className="font-extrabold">Informa a tu jefatura</span> y <span className="font-extrabold">acude a urgencias </span>
+        <p className="text-xxs-320 text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-5xl text-left ">
+        <span className="font-extrabold">Ropa contaminada:</span> Retirar y ducharse si
         </p>
-         <p className="text-xxs-320 text-[13.5px] sm:text-xs md:text-3xl lg:text-3xl xl:text-5xl text-left ">
-          para recibir atención.
+         <p className="text-xxs-320 text-[14px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-5xl text-left ">
+          es necesario.
+        </p>
+
+
+        </div>
+
+        <div className="ml-9 md:ml-23 lg:ml-10 xl:ml-25 mt-2 xl:mt-0 lg:mt-0 md:mt-0">
+                                     {/* numero 5 */}
+          <svg
+  className="
+    absolute
+    top-63 -left-14
+    md:top-102 md:-left-27
+    lg:top-120 lg:-left-32
+   xl:top-174 xl:-left-40
+    w-25 h-25
+         md:w-44 md:h-40
+    lg:w-55 lg:h-55
+    xl:w-75 xl:h-60
+    z-40
+  "
+  viewBox="0 0 55.3 19.26"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill="#000000"
+    d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
+  />
+  <text
+    fill="#ffffff"
+    fontSize="11"
+    fontWeight="800"
+    x="34.93"
+    y="13.28"
+  >
+    05
+  </text>
+</svg>
+
+        <p className="text-xxs-320 text-[12.8px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[43px] text-left ">
+        <span className="font-extrabold">Avisar a jefatura para seguir el procedimiento.</span>
+        </p>
+
+
+
+        </div>
+
+      <div className="ml-9 md:ml-23 lg:ml-10 xl:ml-25 mt-2 xl:mt-0 lg:mt-0 md:mt-0">
+                                     {/* numero 6 */}
+          <svg
+  className="
+    absolute
+    top-75 -left-14
+    md:top-120 md:-left-27
+    lg:top-142 lg:-left-32
+   xl:top-204 xl:-left-40
+    w-25 h-25
+          md:w-44 md:h-40
+
+    lg:w-55 lg:h-55
+    xl:w-75 xl:h-60
+    z-40
+  "
+  viewBox="0 0 55.3 19.26"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill="#00000"
+    d="M45.67,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h36.04c5.32,0,9.63,4.31,9.63,9.63h0c0,5.32-4.31,9.63-9.63,9.63Z"
+  />
+  <text
+    fill="#ffffff"
+    fontSize="11"
+    fontWeight="800"
+    x="34.93"
+    y="13.28"
+  >
+    06
+  </text>
+</svg>
+
+        <p className="text-xxs-320 text-[12.5px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-[43px] text-left ">
+        <span className="font-black">Ir a Urgencias,</span> llenar la DIAT y esperar atención
+        </p>
+         <p className="text-xxs-320 text-[13.5px] sm:text-xs md:text-[22px] lg:text-3xl xl:text-5xl text-left ">
+         médica.
         </p>
 
 

@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import CodigoAzul from "../components/CodigoAzul"; 
 import PlanEmergencia from "@/components/PlanEmergencia";
 import FichaClinica from "@/components/FichaClinica";
-import GestionReclamos from "@/components/GestionReclamos";
 import AccidenteFluidos from "@/components/AccidenteFluidos";
 import Responsabilidad from "@/components/Responsabilidad";
 import Notificar from "@/components/Notificar";
@@ -102,9 +101,9 @@ export default function Home() {
    
 <motion.div
   initial={{ scaleX: 0, opacity: 0 }}          
-  animate={{ scaleX: 1, opacity: 1 }}          
+  animate={{ scaleX: 1.1, opacity: 1 }}          
   transition={{ duration: 0.8, ease: "easeOut" }} 
-  className="w-[45%] h-[2px] md:h-[6px] xl:h-[10px] bg-azul mb-1 md:mb-3 w-full rounded-lg origin-left"
+  className="w-[45%] h-[2px] md:h-[6px] xl:h-[6px] bg-azul mb-1 md:mb-3 w-full rounded-lg origin-left"
 ></motion.div>
 
 
@@ -112,9 +111,10 @@ export default function Home() {
   initial={{ x: -100, opacity: 0 }}  
   animate={{ x: 0, opacity: 1 }}     
   transition={{ duration: 1, ease: "easeOut" }}  
-  className="font-bold text-azul text-xs md:text-2xl lg:text-3xl xl:text-5xl"
+  className="font-bold text-azul text-xs md:text-2xl lg:text-3xl xl:text-5xl leading-tight"
 >
-  acreditación <span className="font-bold">2025</span>
+  acreditación<br />
+  <span className="font-black">2025 - 2026</span>
 </motion.p>
   </div>
 </div>
@@ -158,7 +158,7 @@ export default function Home() {
 </div>
     <PlanEmergencia />
     <FichaClinica />
-    <GestionReclamos />
+ 
     <AccidenteFluidos />
     <Responsabilidad />
     {/* circulo Morado*/}
@@ -179,24 +179,12 @@ export default function Home() {
       />
     </svg>
     
-    {/* Segundo círculo izquierda */}
-    <svg
-      className="w-10 h-10 md:w-18 md:h-18 lg:w-18 lg:h-18 xl:w-30 xl:h-30 transform -translate-y-5/6"
-      viewBox="0 0 37.22 37.22"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <circle
-         fill="#105afb"
-        cx="18.61"
-        cy="18.61"
-        r="18.61"
-      />
-    </svg>
+
   </div>
 
   {/* Círculo derecha */}
   <svg
-    className="w-10 h-10 md:w-18 md:h-18 lg:w-18 lg:h-18 xl:w-36 xl:h-36 mr-4 md:mr-20 xl:mr-60 transform -translate-y-4/5"
+    className="w-10 h-10 md:w-18 md:h-18 lg:w-18 lg:h-18 xl:w-36 xl:h-36 mr-4 md:mr-20 xl:mr-40 transform -translate-y-4/5"
     viewBox="0 0 37.22 37.22"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -212,31 +200,11 @@ export default function Home() {
     <Etica />
         <div className="bg-verde">
 
-<svg
-  className="w-30 h-30 md:w-50 md:h-50 lg:w-60 lg:h-60 xl:w-80 xl:h-80 ml-auto  mr-0 md:mr-0 xl:mr-0  -mt-10 -mb-14  md:-mt-20 md:-mb-25  lg:-mt-20 lg:-mb-30  xl:-mt-30 xl:-mb-40 relative z-100"
-  viewBox="0 0 67.42 19.26"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path fill="#fff200" d="M67.42,19.26H9.63C4.31,19.26,0,14.95,0,9.63h0C0,4.31,4.31,0,9.63,0h57.79v19.26Z"/>
-</svg>
-</div>
-    <Esteriliza />
-    {/* circulo verde*/}
-<div className="bg-verde-oscuro">
-<svg
-  className="w-12 h-12 md:w-30 md:h-30 lg:w-30 lg:h-30 xl:w-50 xl:h-50 ml-auto  mr-4 md:mr-20 xl:mr-100   -mt-5 -mb-5 md:-mt-10 md:-mb-14 xl:-mt-1 xl:-mb-25 relative z-50"
-  viewBox="0 0 37.22 37.22"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <circle
-    fill="#e72d45"
-    cx="18.61"
-    cy="18.61"
-    r="18.61"
-  />
-</svg>
 
 </div>
+    <Esteriliza />
+
+
     <Notificar />
     <Seccion />
   </div>

@@ -81,7 +81,7 @@ className="
     </h2>
 
     <div className="w-full flex flex-col justify-center h-full">
-      <p className="text-lg md:text-4xl lg:text-[40px] xl:text-5xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 font-bold text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10">
+      <p className="text-lg md:text-4xl lg:text-[40px] xl:text-5xl mt-5 md:mt-7 lg:mt-10 xl:mt-15 font-black text-center mb-5 md:mb-10 lg:mb-10 xl:mb-10">
         Pide ayuda de inmediato
       </p>
 
@@ -91,14 +91,14 @@ className="
           <svg
   className="
     absolute
-    top-28 -left-16
+    top-28 -left-14
     md:top-50 md:-left-27
     lg:top-58 lg:-left-32
-    xl:top-75 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
-    xl:w-75 xl:h-60
+    xl:top-70 xl:-left-40
+    w-25 h-25
+    md:w-48 md:h-48
+    lg:w-56 lg:h-56
+     xl:w-70 xl:h-70
     z-40
   "
   viewBox="0 0 55.3 19.26"
@@ -111,8 +111,8 @@ className="
   <text
     fill="#fff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
+
     x="34.93"
     y="13.28"
   >
@@ -132,14 +132,14 @@ className="
           <svg
   className="
     absolute
-    top-40 -left-16
-    md:top-76 md:-left-27
-    lg:top-87 lg:-left-32
-    xl:top-115 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
-    xl:w-75 xl:h-60
+    top-42 -left-14
+    md:top-78 md:-left-27
+    lg:top-90 lg:-left-32
+    xl:top-110 xl:-left-40
+     w-25 h-25
+    md:w-48 md:h-48
+    lg:w-56 lg:h-56
+     xl:w-70 xl:h-70
     z-40
   "
   viewBox="0 0 55.3 19.26"
@@ -152,18 +152,22 @@ className="
   <text
     fill="#fff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
+
     x="34.93"
     y="13.28"
   >
     02
   </text>
 </svg>
+<p className="text-xxs-320 text-sm sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl text-left">
+  <strong className="font-extrabold">Llama</strong>{" "}
+  <strong className="text-amarillo align-middle text-[1.4em] md:text-[1.6em] lg:text-[1.8em]">
+    ∗∗
+  </strong>{" "}
+  <strong>o avisa en voz alta </strong>indicando:
+</p>
 
-        <p className="text-xxs-320 text-sm sm:text-xs md:text-3xl lg:text-4xl xl:text-5xl  text-left">
-          <strong className="font-extrabold">Llama o avisa en voz alta </strong>indicando: 
-        </p>
            <p className="text-xxs-320 italic font-extrabold  text-[12px] sm:text-xs md:text-2xl lg:text-3xl xl:text-5xl  text-left">
           “Código Azul – niño o adulto – lugar del hospital”
         </p>
@@ -174,14 +178,14 @@ className="
           <svg
   className="
     absolute
-    top-52 -left-16
-    md:top-103 md:-left-27
-    lg:top-115 lg:-left-32
-   xl:top-155 xl:-left-40
-    w-28 h-28
-    md:w-50 md:h-50
-    lg:w-60 lg:h-60
-    xl:w-75 xl:h-60
+    top-56 -left-14
+    md:top-105 md:-left-27
+    lg:top-122 lg:-left-32
+   xl:top-153 xl:-left-40
+     w-25 h-25
+    md:w-48 md:h-48
+    lg:w-56 lg:h-56
+    xl:w-70 xl:h-70
     z-40
   "
   viewBox="0 0 55.3 19.26"
@@ -194,8 +198,8 @@ className="
   <text
     fill="#fff"
     fontSize="11"
-    fontWeight="700"
-    fontFamily="Arial, sans-serif"
+    fontWeight="800"
+
     x="34.93"
     y="13.28"
   >

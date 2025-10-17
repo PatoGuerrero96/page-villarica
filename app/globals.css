@@ -75,6 +75,9 @@
     .text-mxs {
     font-size: 14px;
   }
+    .text-pequeño-320 {
+    font-size: 9px;
+  }
 
 }
 
@@ -85,9 +88,12 @@
     .text-xxxs-320 {
     font-size: 9.9px;
   }
+    .text-xxxxs-320 {
+    font-size: 9.1px;
+  }
 
     .text-mxs-320 {
-    font-size: 13.5px;
+    font-size: 8.9px;
   }
 }
 body {
