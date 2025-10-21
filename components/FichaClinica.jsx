@@ -54,7 +54,7 @@ const FichaClinica = () => {
   {/* Contenido */}
   <div className="relative px-4 md:px-8 lg:px-16 text-white flex flex-col w-full">
     <h2 className="text-xl sm:text-xl md:text-5xl lg:text-5xl xl:text-6xl mt-8 md:mt-15 lg:mt-20 xl:mt-30 font-black text-center uppercase border-3 lg:border-6 md:border-6 xl:border-6 border-white rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-1 md:py-4 lg:py-5 xl:py-5 inline-block mx-auto">
-      ESTERILIZA
+      Esterilización
     </h2>
   <div className="flex flex-col text-left items-start mx-auto">
     <p className="text-[12.5px] sm:text-md md:text-2xl lg:text-[35px] xl:text-5xl mt-2 md:mt-4">

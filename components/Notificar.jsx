@@ -63,8 +63,8 @@ className="
   </p>
 </div>
 
-    <h2 className="relative bg-black text-md sm:text-lg md:text-4xl lg:text-4xl xl:text-6xl mt-2 md:mt-3 lg:mt-4 xl:mt-4 font-black text-center uppercase  rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto z-60 ">
-      NOTIFICAR ES FÁCIL Y RÁPIDO
+    <h2 className="relative bg-black text-sm sm:text-lg md:text-3xl lg:text-4xl xl:text-6xl mt-2 md:mt-3 lg:mt-4 xl:mt-4 font-black text-center uppercase  rounded-full px-4 md:px-6 lg:px-6 xl:px-6 py-2 md:py-6 lg:py-6 xl:py-6 inline-block mx-auto z-60 ">
+      Notificación de Eventos Adversos
     </h2>
 
     <div className="w-full flex flex-col justify-center h-full mt-8 md:mt-15 lg:mt-20 xl:mt-25">
