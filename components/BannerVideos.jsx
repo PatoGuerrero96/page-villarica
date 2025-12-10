@@ -5,13 +5,13 @@ export default function BannerVideos() {
   const videos = [
     { id: 1, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb1.jpg", title: "Código Azul" },
     { id: 2, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb2.jpg", title: "Identificación" },
-    { id: 3, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb3.jpg", title: "Plan de Emergencia" },
-    { id: 4, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb4.jpg", title: "Esterilización" },
-    { id: 5, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb5.jpg", title: "Ante un accidente con fluidos" },
-    { id: 6, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb6.jpg", title: "Accidente con medicamentos antineoplásicos" },
-    { id: 7, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb7.jpg", title: "CEC" },
-    { id: 8, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb8.jpg", title: "CEA" },
-    { id: 9, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb9.jpg", title: "Gestión de reclamos" },
+    { id: 3, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb3.jpg", title: "Plan de Emergencia" },
+    { id: 4, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb4.jpg", title: "Esterilización" },
+    { id: 5, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb5.jpg", title: "Ante un accidente con fluidos" },
+    { id: 6, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb6.jpg", title: "Accidente con medicamentos antineoplásicos" },
+    { id: 7, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb7.jpg", title: "CEC" },
+    { id: 8, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb8.jpg", title: "CEA" },
+    { id: 9, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb9.jpg", title: "Gestión de reclamos" },
 
   ];
 
@@ -110,9 +110,9 @@ export default function BannerVideos() {
   onClick={() => setActiveVideo(null)}
   className="
       absolute 
-      top-3 right-3 mt-1 mr-1               
-      sm:top-5 sm:right-5          
-      md:top-10 md:right-10        
+      top-3 left-4 mt-1 mr-1               
+      sm:top-5 sm:left-5          
+      md:top-10 md:left-11        
       bg-white text-gray-900 rounded-full shadow-xl 
       p-1.5 sm:p-2 md:p-3         
       z-[101] hover:bg-gray-200 transition
@@ -120,8 +120,8 @@ export default function BannerVideos() {
   aria-label="Cerrar"
 >
   <X 
-    size={14}          
-    className="sm:w-6 sm:h-6 md:w-7 md:h-7"  
+    size={8}          
+    className="sm:w-6 sm:h-6 md:w-5 md:h-5"  
     strokeWidth={2.5} 
   />
 </button>
@@ -130,7 +130,7 @@ export default function BannerVideos() {
             {/* Video */}
 {activeVideo.src.includes("vimeo.com") ? (
 <iframe
-  src={`${activeVideo.src}?autoplay=1&title=0&byline=0&portrait=0&controls=1`}
+  src={`${activeVideo.src}?autoplay=1&title=0&byline=0&portrait=0&like=0&watch_later=0&share=0&controls=1`}
   className="w-full aspect-video rounded-xl shadow-lg"
   allow="autoplay; fullscreen; picture-in-picture"
   allowFullScreen
