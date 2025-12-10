@@ -3,8 +3,8 @@ import { Play, ChevronLeft, ChevronRight, X,RectangleHorizontal } from "lucide-r
 
 export default function BannerVideos() {
   const videos = [
-    { id: 1, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb1.jpg", title: "Código Azul" },
-    { id: 2, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb2.jpg", title: "Identificación" },
+    { id: 1, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb1.jpg", title: "Código Azul" },
+    { id: 2, src: "https://player.vimeo.com/video/1145356976", thumbnail: "/thumbnails/thumb2.jpg", title: "Identificación" },
     { id: 3, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb3.jpg", title: "Plan de Emergencia" },
     { id: 4, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb4.jpg", title: "Esterilización" },
     { id: 5, src: "/videos/video1.mp4", thumbnail: "/thumbnails/thumb5.jpg", title: "Ante un accidente con fluidos" },
@@ -127,32 +127,25 @@ export default function BannerVideos() {
 </button>
 
 
-
-           
- <button
-  onClick={() => {
-    const videoEl = document.getElementById("video-player");
-    if (videoEl?.requestFullscreen) videoEl.requestFullscreen();
-    if (screen.orientation && screen.orientation.lock) {
-      screen.orientation.lock("landscape").catch(() => {});
-    }
-  }}
-  className="md:hidden absolute top-3.5 left-3.5 bg-black/60 p-2 
-             rounded-full shadow-lg hover:bg-black/80 transition"
-  aria-label="Rotar pantalla"
->
-  <RectangleHorizontal size={16} className="text-white" />
-</button>
-
             {/* Video */}
-            <video
-              id="video-player"
-              controls
-              autoPlay
-              className="w-full rounded-xl shadow-lg"
-            >
-              <source src={activeVideo.src} type="video/mp4" />
-            </video>
+{activeVideo.src.includes("vimeo.com") ? (
+<iframe
+  src={`${activeVideo.src}?autoplay=1&title=0&byline=0&portrait=0&controls=1`}
+  className="w-full aspect-video rounded-xl shadow-lg"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowFullScreen
+></iframe>
+) : (
+  <video
+    id="video-player"
+    controls
+    autoPlay
+    className="w-full rounded-xl shadow-lg"
+  >
+    <source src={activeVideo.src} type="video/mp4" />
+  </video>
+)}
+
           </div>
         </div>
       )}

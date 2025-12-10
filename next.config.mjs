@@ -18,6 +18,8 @@ const nextConfig = {
               img-src 'self' data: https:;
               font-src 'self' https:;
               connect-src 'self' https:;
+                  frame-src 'self' https://player.vimeo.com/;
+    media-src 'self' https://player.vimeo.com/ https://vod-progressive.akamaized.net/;
             `.replace(/\s+/g, ' ')
           },
           { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
