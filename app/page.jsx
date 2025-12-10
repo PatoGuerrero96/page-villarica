@@ -12,6 +12,7 @@ import Seccion from "@/components/Seccion";
 import Etica from "@/components/Etica";
 import Esteriliza from "@/components/Esteriliza";
 import Identificacion from "@/components/Identificacion";
+import BannerVideos from "@/components/BannerVideos";
 export default function Home() {
     const [visible, setVisible] = useState(false);
       useEffect(() => {
@@ -124,6 +125,7 @@ export default function Home() {
 </div>
 
       <div className="relative ">
+               <BannerVideos />
     <CodigoAzul />
 {/* circulo rojo*/}
 <div className="bg-azul">
@@ -206,6 +208,7 @@ export default function Home() {
 
 
     <Notificar />
+
     <Seccion />
   </div>
 </main>
