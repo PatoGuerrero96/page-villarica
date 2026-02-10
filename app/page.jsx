@@ -12,7 +12,6 @@ import Seccion from "@/components/Seccion";
 import Etica from "@/components/Etica";
 import Esteriliza from "@/components/Esteriliza";
 import Identificacion from "@/components/Identificacion";
-import BannerVideos from "@/components/BannerVideos";
 export default function Home() {
     const [visible, setVisible] = useState(false);
       useEffect(() => {
