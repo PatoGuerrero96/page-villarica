@@ -125,7 +125,6 @@ export default function Home() {
 </div>
 
       <div className="relative ">
-               <BannerVideos />
     <CodigoAzul />
 {/* circulo rojo*/}
 <div className="bg-azul">
